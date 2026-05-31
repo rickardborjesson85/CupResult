@@ -1,0 +1,6667 @@
+{
+  "responses": {
+    "MatchEvent({id:81255890})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255890
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Ebbe Lagerwall Petrén",
+        "playerNr": 11,
+        "likedBy": [],
+        "absoluteTime": 1780165738443,
+        "relativeTime": 2577360,
+        "id": 81255890,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.81E-4
+    },
+    "Referee({id:78480126})": {
+      "cachetags": [
+        {
+          "taint": [
+            "referee",
+            "referee_refereeId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            78480126
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Referee",
+        "timeline": {
+          "href": "Referee({id:78480126})$timeline"
+        },
+        "name": "Saadeh Kaspo",
+        "matches": {
+          "href": "Referee({id:78480126})$matches"
+        },
+        "id": 78480126,
+        "isPublic": true,
+        "me": {
+          "href": "MeReferee({id:78480126})"
+        },
+        "number": "19",
+        "days": {
+          "href": "Referee({id:78480126})$days"
+        }
+      },
+      "auditResolveTimeMs": 0.012133
+    },
+    "Video({id:80654984})": {
+      "cachetags": [
+        {
+          "taint": [
+            "web",
+            "video"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Video",
+        "thumbnail": "https://edg01-prd-se-ixn.solidtango.com/cache/media_file/crop640x360/40c09301-190d-4764-95cf-cc319835f0ac.png?cb=2e3420831afdea5fbbce3291282219e8",
+        "externalLink": "https://solidsport.com/lampechallenge/watch/3-an-i-grupp-b-3-an-i-grupp-d-5a03da47-071b-4d3e-ad70-d0e677b00875",
+        "id": 80654984,
+        "match": {
+          "href": "Match({id:80003664})"
+        },
+        "provider": "solidsport"
+      },
+      "auditResolveTimeMs": 0.011706
+    },
+    "NameClub({id:74366603})": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub",
+        "interestingFacts": {
+          "href": "NameClub({id:74366603})$interestingFacts"
+        },
+        "sportsRegion": {
+          "href": "NameClub({id:74366603})$sportsRegion"
+        },
+        "matchesCalendarUrl": {
+          "href": "NameClub({id:74366603})$matchesCalendarUrl"
+        },
+        "matchesExcelUrl": {
+          "href": "NameClub({id:74366603})$matchesExcelUrl"
+        },
+        "medalHistory": {
+          "href": "NameClub({id:74366603})$medalHistory"
+        },
+        "registeredTeams": {
+          "href": "NameClub({id:74366603})$registeredTeams"
+        },
+        "shirt": {
+          "href": "NameClub({id:74366603})$shirt"
+        },
+        "nation": {
+          "href": "Nation({id:213,tid:69211459})"
+        },
+        "name": "Kvarnby Basket",
+        "id": 74366603,
+        "address": {
+          "href": "NameClub({id:74366603})$address"
+        },
+        "description": {
+          "href": "NameClub({id:74366603})$description"
+        }
+      },
+      "auditResolveTimeMs": 0.007141
+    },
+    "MatchEvent({id:81256088})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256088
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [],
+        "absoluteTime": 1780166007726,
+        "relativeTime": 2846643,
+        "id": 81256088,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.8E-4
+    },
+    "MatchEvent({id:81253567})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253567
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 8,
+        "awayScore": 19,
+        "value": 3,
+        "side": "away",
+        "playerName": "Alex Cortez",
+        "playerNr": 15,
+        "likedBy": [],
+        "absoluteTime": 1780163355218,
+        "relativeTime": 833529,
+        "id": 81253567,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.29E-4
+    },
+    "Division({id:80003662})": {
+      "cachetags": [
+        {
+          "taint": [
+            "division",
+            "division_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003662
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Conference",
+        "pseudoTeams": {
+          "href": "Division({id:80003662})$pseudoTeams"
+        },
+        "extraMatches": {
+          "href": "Division({id:80003662})$extraMatches"
+        },
+        "size": 2,
+        "table": {
+          "href": "Division({id:80003662})$table"
+        },
+        "rounds": {
+          "href": "Division({id:80003662})$rounds"
+        },
+        "name": {
+          "en": "Place 9-12 A"
+        },
+        "matches": {
+          "href": "Division({id:80003662})$matches"
+        },
+        "id": 80003662,
+        "category": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})"
+        },
+        "stage": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})"
+        },
+        "finished": {
+          "href": "Division({id:80003662})$finished"
+        }
+      },
+      "auditResolveTimeMs": 0.001584
+    },
+    "MatchEvent({id:81253212})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253212
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎉🎊🎊 Måååål! 🎊🏆\nMål efter mål för Kvarnby Basket. Nu bara rasar målen in.",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780162933427,
+        "relativeTime": 411738,
+        "id": 81253212,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.7E-4
+    },
+    "MatchEvent({id:81255852})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255852
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 46,
+        "awayScore": 55,
+        "value": 1,
+        "side": "home",
+        "playerName": "Antony Tomic",
+        "playerNr": 13,
+        "likedBy": [],
+        "absoluteTime": 1780165692272,
+        "relativeTime": 2531189,
+        "id": 81255852,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.51E-4
+    },
+    "MatchEvent({id:81253379})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253379
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780163127573,
+        "relativeTime": 605884,
+        "id": 81253379,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.97E-4
+    },
+    "MatchEvent({id:81253899})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253899
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 13,
+        "awayScore": 26,
+        "value": 2,
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [],
+        "absoluteTime": 1780163745187,
+        "relativeTime": 2243611,
+        "id": 81253899,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.74E-4
+    },
+    "Arena({id:50286753,tid:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "location"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Arena",
+        "areaMaps": {
+          "href": "Arena({id:50286753,tid:69211459})$areaMaps"
+        },
+        "liveMatch": {
+          "href": "Arena({id:50286753,tid:69211459})$liveMatch"
+        },
+        "completeName": "Skanskvarnshallen",
+        "liveScreenUrl": "https://lampechallenge.cupmanager.net/69211442,wrap=clean/result/matchWidget/50286753",
+        "id": 50286753,
+        "location": {
+          "href": "Location({id:50286752,tid:69211459})"
+        },
+        "fieldName": "",
+        "days": {
+          "href": "Arena({id:50286753,tid:69211459})$days"
+        }
+      },
+      "auditResolveTimeMs": 0.006165
+    },
+    "MatchEvent({id:81254258})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254258
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 21,
+        "awayScore": 32,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tage Rosén",
+        "playerNr": 23,
+        "likedBy": [],
+        "absoluteTime": 1780164070747,
+        "relativeTime": 2569171,
+        "id": 81254258,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.41E-4
+    },
+    "MatchEvent({id:81256178})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256178
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal"
+        ],
+        "foulType": "technical",
+        "side": "home",
+        "playerName": "Leon Doormann",
+        "playerNr": 45,
+        "likedBy": [],
+        "absoluteTime": 1780166167358,
+        "relativeTime": 3006275,
+        "id": 81256178,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.41E-4
+    },
+    "MatchEvent({id:81253179})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253179
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 4,
+        "awayScore": 2,
+        "value": 2,
+        "side": "home",
+        "playerName": "Lucas Mouravidze",
+        "playerNr": 7,
+        "likedBy": [],
+        "absoluteTime": 1780162905107,
+        "relativeTime": 383418,
+        "id": 81253179,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.6E-4
+    },
+    "MatchEvent({id:81255822})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255822
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Johannes Larsson",
+        "playerNr": 17,
+        "likedBy": [],
+        "absoluteTime": 1780165659123,
+        "relativeTime": 2498040,
+        "id": 81255822,
+        "period": 3
+      },
+      "auditResolveTimeMs": 6.07E-4
+    },
+    "Team({id:75495747})$shirt": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub$Shirt",
+        "type": "unknown",
+        "color1": "#26c100",
+        "color2": "#ffff00",
+        "color3": "#ffff00",
+        "anti": "#ffffff"
+      },
+      "auditResolveTimeMs": 7.07E-4
+    },
+    "MatchEvent({id:81254736})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254736
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎉🎉 Måååål! 🏆\n2 mål efter varandra för Kvarnby Basket! Nu verkar det som om de sätter fart. Ett välbehövt mål, men fortfarande 10 mål kvar upp till kvittering",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780164511762,
+        "relativeTime": 2282902,
+        "id": 81254736,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.74E-4
+    },
+    "MatchEvent({id:81254778})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254778
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Antony Tomic",
+        "playerNr": 13,
+        "likedBy": [],
+        "absoluteTime": 1780164566687,
+        "relativeTime": 2337827,
+        "id": 81254778,
+        "period": 2
+      },
+      "auditResolveTimeMs": 3.16E-4
+    },
+    "MatchEvent({id:81253133})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253133
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 2,
+        "awayScore": 0,
+        "value": 2,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780162852250,
+        "relativeTime": 330561,
+        "id": 81253133,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.12E-4
+    },
+    "MatchEvent({id:81254182})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254182
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 18,
+        "awayScore": 30,
+        "value": 2,
+        "side": "home",
+        "playerName": "Leon Doormann",
+        "playerNr": 45,
+        "likedBy": [],
+        "absoluteTime": 1780164015048,
+        "relativeTime": 2513472,
+        "id": 81254182,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.26E-4
+    },
+    "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$name": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": "Finals",
+      "auditResolveTimeMs": 7.14E-4
+    },
+    "Match({id:80003664})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_state_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "match",
+            "match_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Match",
+        "liveStart": {
+          "href": "Match({id:80003664})$liveStart"
+        },
+        "nextMatchWinner": {
+          "href": "Match({id:80003664})$nextMatchWinner"
+        },
+        "previousMeetings": {
+          "href": "Match({id:80003664})$previousMeetings"
+        },
+        "editionRanking": {
+          "href": "Match({id:80003664})$editionRanking"
+        },
+        "loser": {
+          "href": "Match({id:80003664})$loser"
+        },
+        "nextMatchLoser": {
+          "href": "Match({id:80003664})$nextMatchLoser"
+        },
+        "roundRank": {
+          "href": "Match({id:80003664})$roundRank"
+        },
+        "winner": {
+          "href": "Match({id:80003664})$winner"
+        },
+        "referees": {
+          "href": "Match({id:80003664})$referees"
+        },
+        "division": {
+          "href": "Division({id:80003662})"
+        },
+        "live": true,
+        "arena": {
+          "href": "Arena({id:50286753,tid:69211459})"
+        },
+        "extraMatches": {
+          "href": "Match({id:80003664})$extraMatches"
+        },
+        "video": {
+          "href": "Match({id:80003664})$video"
+        },
+        "away": {
+          "href": "MatchActor({actor:\"away\",id:80003664})"
+        },
+        "feed": {
+          "href": "MatchFeed({id:80003664})"
+        },
+        "isScheduled": true,
+        "protests": {
+          "href": "Match({id:80003664})$protests"
+        },
+        "roundName": {
+          "href": "Match({id:80003664})$roundName"
+        },
+        "matchNr": "30052808",
+        "matchStats": {
+          "href": "Match({id:80003664})$matchStats"
+        },
+        "start": 1780162800000,
+        "end": 1780167000000,
+        "result": {
+          "href": "MatchResult({id:80003664})"
+        },
+        "id": 80003664,
+        "round": {
+          "href": "Round({id:80003663})"
+        },
+        "home": {
+          "href": "MatchActor({actor:\"home\",id:80003664})"
+        },
+        "duration": 4200000,
+        "day": {
+          "href": "EditionDay({id:74092519})"
+        },
+        "stage": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})"
+        },
+        "finished": true
+      },
+      "auditResolveTimeMs": 0.002271
+    },
+    "MatchEvent({id:81255065})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255065
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 35,
+        "awayScore": 43,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tor Söderblom",
+        "playerNr": 9,
+        "likedBy": [
+          "Pär"
+        ],
+        "absoluteTime": 1780164856755,
+        "relativeTime": 2627895,
+        "id": 81255065,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.12E-4
+    },
+    "MatchEvent({id:81255404})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255404
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 41,
+        "awayScore": 47,
+        "value": 2,
+        "side": "home",
+        "playerName": "Antony Tomic",
+        "playerNr": 13,
+        "likedBy": [],
+        "absoluteTime": 1780165185824,
+        "relativeTime": 2956964,
+        "id": 81255404,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.38E-4
+    },
+    "MatchEvent({id:81255923})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255923
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎈🎈💥 Där blev det mål! 🎈💥\nMål efter mål för Kvarnby Basket😛 Nu bara rasar målen in. Se upp Hammarby Basket! Kvarnby Basket kämpar sig närmre och närmre. Nu bara 7 mål kvar upp till kvittering",
+          "en": "3 goals in a row for Kvarnby Basket😛"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780165763432,
+        "relativeTime": 2602349,
+        "id": 81255923,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.46E-4
+    },
+    "MatchEvent({id:81255442})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255442
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Viggo De Vicente",
+        "playerNr": 38,
+        "likedBy": [],
+        "absoluteTime": 1780165222861,
+        "relativeTime": 2994001,
+        "id": 81255442,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.78E-4
+    },
+    "MatchEvent({id:81255904})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255904
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Kvarnby Basket gör sitt andra mål på raken! Ett välbehövt mål, men fortfarande 8 mål kvar upp till kvittering",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780165751891,
+        "relativeTime": 2590808,
+        "id": 81255904,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.38E-4
+    },
+    "MatchEvent({id:81255988})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255988
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "5 mål efter varandra för Kvarnby Basket! Nu verkar det som om de sätter fart.",
+          "en": "5 goals in a row for Kvarnby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780165865428,
+        "relativeTime": 2704345,
+        "id": 81255988,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.26E-4
+    },
+    "Division({id:80003662})$table": {
+      "cachetags": [
+        {
+          "taint": [
+            "division",
+            "division_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003662
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Division$ConferenceTable",
+        "rows": [
+          {
+            "__typename": "Division$ConferenceTableRow",
+            "isIm": false,
+            "played": 1,
+            "won": 1,
+            "tied": 0,
+            "lost": 0,
+            "goalsWon": 58,
+            "goalsLost": -55,
+            "points": 2,
+            "periodsWon": 2,
+            "periodsLost": -2,
+            "greenCards": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "fairPlayPoints": 0,
+            "penaltyMinutes": 0,
+            "im_played": 0,
+            "im_won": 0,
+            "im_tied": 0,
+            "im_lost": 0,
+            "im_goalsWon": 0,
+            "im_goalsLost": 0,
+            "im_points": 0,
+            "im_periodsWon": 0,
+            "im_periodsLost": 0,
+            "im_greenCards": 0,
+            "im_yellowCards": 0,
+            "im_redCards": 0,
+            "im_fairPlayPoints": 0,
+            "im_penaltyMinutes": 0,
+            "name": {
+              "en": "Hammarby Basket White"
+            },
+            "team": {
+              "href": "Team({id:75935784})"
+            },
+            "targetStage": {
+              "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})"
+            }
+          },
+          {
+            "__typename": "Division$ConferenceTableRow",
+            "isIm": false,
+            "played": 1,
+            "won": 0,
+            "tied": 0,
+            "lost": 1,
+            "goalsWon": 55,
+            "goalsLost": -58,
+            "points": 0,
+            "periodsWon": 2,
+            "periodsLost": -2,
+            "greenCards": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "fairPlayPoints": 0,
+            "penaltyMinutes": 0,
+            "im_played": 0,
+            "im_won": 0,
+            "im_tied": 0,
+            "im_lost": 0,
+            "im_goalsWon": 0,
+            "im_goalsLost": 0,
+            "im_points": 0,
+            "im_periodsWon": 0,
+            "im_periodsLost": 0,
+            "im_greenCards": 0,
+            "im_yellowCards": 0,
+            "im_redCards": 0,
+            "im_fairPlayPoints": 0,
+            "im_penaltyMinutes": 0,
+            "name": {
+              "en": "Kvarnby Basket Yellow"
+            },
+            "team": {
+              "href": "Team({id:75495747})"
+            },
+            "targetStage": {
+              "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})"
+            }
+          }
+        ],
+        "inheritResults": false,
+        "inheritInternalResults": false,
+        "hasFixedRanks": false,
+        "hasTiedTeams": false,
+        "pointsWin": 2,
+        "pointsLoss": 0,
+        "pointsTie": 0
+      },
+      "auditResolveTimeMs": 11.01033
+    },
+    "MatchEvent({id:81256348})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256348
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchComment",
+        "author": "Do",
+        "side": "home",
+        "profilePictureUrl": "https://ui-avatars.com/api/?name=Do",
+        "comment": "THANKS_REFEREE",
+        "likedBy": [],
+        "absoluteTime": 1780166403151,
+        "relativeTime": 3155936,
+        "id": 81256348,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.286971
+    },
+    "MatchEvent({id:81254543})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254543
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🏆💥 Grymt jobbat Hammarby Basket! 🎊🎊\nMål efter mål för Hammarby Basket. Nu bara rasar målen in. Jag känner på mig att Kvarnby Basket sätter nästa nu!",
+          "en": "3 goals in a row for Hammarby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780164282376,
+        "relativeTime": 2780800,
+        "id": 81254543,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.49E-4
+    },
+    "MatchEvent({id:81256117})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256117
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal",
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Kasper Hallberg",
+        "playerNr": 21,
+        "likedBy": [],
+        "absoluteTime": 1780166066151,
+        "relativeTime": 2905068,
+        "id": 81256117,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.62E-4
+    },
+    "MatchEvent({id:81255318})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255318
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💫 Mål måål måååål! 💫💫🎊\nKvarnby Basket gör sitt andra mål på raken! Kommer det bli 4 mål till för Kvarnby Basket? I så fall är det kvitterat 😊",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780165114465,
+        "relativeTime": 2885605,
+        "id": 81255318,
+        "period": 2
+      },
+      "auditResolveTimeMs": 3.75E-4
+    },
+    "MatchEvent({id:81254023})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254023
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 13,
+        "awayScore": 28,
+        "value": 2,
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [],
+        "absoluteTime": 1780163880254,
+        "relativeTime": 2378678,
+        "id": 81254023,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.73E-4
+    },
+    "MatchEvent({id:81253370})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253370
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 6,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tor Söderblom",
+        "playerNr": 9,
+        "likedBy": [],
+        "absoluteTime": 1780163117130,
+        "relativeTime": 595441,
+        "id": 81253370,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.74E-4
+    },
+    "MatchEvent({id:81256120})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256120
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchTimeout",
+        "side": "home",
+        "likedBy": [],
+        "absoluteTime": 1780166078576,
+        "relativeTime": 2917493,
+        "id": 81256120,
+        "period": 3
+      },
+      "auditResolveTimeMs": 4.15E-4
+    },
+    "MatchEvent({id:81254212})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254212
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "3 mål efter varandra för Kvarnby Basket😀😄 Nu verkar det som om de sätter fart.",
+          "en": "3 goals in a row for Kvarnby Basket😄"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780164040559,
+        "relativeTime": 2538983,
+        "id": 81254212,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.79E-4
+    },
+    "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Stage",
+        "previousStages": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$previousStages"
+        },
+        "nextStages": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$nextStages"
+        },
+        "isSingleConference": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$isSingleConference"
+        },
+        "stageTeamConferences": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$stageTeamConferences"
+        },
+        "realTeams": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$realTeams"
+        },
+        "periodLengths": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "schedulePublished": true,
+        "lotPublished": true,
+        "statistics": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$statistics"
+        },
+        "rankings": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$rankings"
+        },
+        "categoryId": 69211502,
+        "pseudoStageTeams": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$pseudoStageTeams"
+        },
+        "teams": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$teams"
+        },
+        "divisions": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$divisions"
+        },
+        "name": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$name"
+        },
+        "type": "playoff",
+        "matches": {
+          "href": "Stage({categoryId:69211502,stageId:69211457,tournamentId:69211459})$matches"
+        },
+        "id": 69211457,
+        "category": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})"
+        },
+        "rank": 2
+      },
+      "auditResolveTimeMs": 0.024344
+    },
+    "MatchEvent({id:81254464})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254464
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Jag noterar 2 mål efter varandra för Hammarby Basket. Gör de nästa mål också? Jag känner på mig att Kvarnby Basket sätter nästa nu!",
+          "en": "2 goals in a row for Hammarby Basket😄"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780164202384,
+        "relativeTime": 2700808,
+        "id": 81254464,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.98E-4
+    },
+    "MatchEvent({id:81255720})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255720
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 45,
+        "awayScore": 55,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tage Rosén",
+        "playerNr": 23,
+        "likedBy": [
+          "Pär"
+        ],
+        "absoluteTime": 1780165527936,
+        "relativeTime": 2366853,
+        "id": 81255720,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.29E-4
+    },
+    "MatchEvent({id:81254555})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254555
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 25,
+        "awayScore": 38,
+        "value": 2,
+        "side": "home",
+        "playerName": "Lucas Mouravidze",
+        "playerNr": 7,
+        "likedBy": [],
+        "absoluteTime": 1780164294061,
+        "relativeTime": 2792485,
+        "id": 81254555,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.38E-4
+    },
+    "MatchEvent({id:81253582})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253582
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchComment",
+        "author": "Pä",
+        "side": "away",
+        "profilePictureUrl": "https://ui-avatars.com/api/?name=Pä",
+        "comment": "PLAY_GOOD",
+        "likedBy": [],
+        "absoluteTime": 1780163366514,
+        "relativeTime": 844825,
+        "id": 81253582,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.322914
+    },
+    "Team({id:75935784})$shirt": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub$Shirt",
+        "type": "unknown",
+        "color1": "#26c100",
+        "color2": "#ffffff",
+        "color3": "#ffffff",
+        "anti": "#ffffff"
+      },
+      "auditResolveTimeMs": 7.28E-4
+    },
+    "MatchEvent({id:81256254})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256254
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal",
+          "technical"
+        ],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Leon Doormann",
+        "playerNr": 45,
+        "likedBy": [],
+        "absoluteTime": 1780166273385,
+        "relativeTime": 3112302,
+        "id": 81256254,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.66E-4
+    },
+    "MatchEvent({id:81255661})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255661
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 45,
+        "awayScore": 53,
+        "value": 2,
+        "side": "home",
+        "playerName": "Sixten Offerle",
+        "playerNr": 37,
+        "likedBy": [],
+        "absoluteTime": 1780165462165,
+        "relativeTime": 2301082,
+        "id": 81255661,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.41E-4
+    },
+    "MatchEvent({id:81254827})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254827
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Kasper Hallberg",
+        "playerNr": 21,
+        "likedBy": [],
+        "absoluteTime": 1780164633852,
+        "relativeTime": 2404992,
+        "id": 81254827,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.8E-4
+    },
+    "MatchEvent({id:81256064})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256064
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [],
+        "absoluteTime": 1780165981406,
+        "relativeTime": 2820323,
+        "id": 81256064,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.65E-4
+    },
+    "Match({id:80003664})$video": {
+      "cachetags": [
+        {
+          "taint": [
+            "web",
+            "video"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "href": "Video({id:80654984})"
+      },
+      "auditResolveTimeMs": 4.75E-4
+    },
+    "MatchEvent({id:81254944})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254944
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 32,
+        "awayScore": 39,
+        "value": 2,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780164738056,
+        "relativeTime": 2509196,
+        "id": 81254944,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.67E-4
+    },
+    "MatchEvent({id:81253174})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253174
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💫🎊 Utdelning för Hammarby Basket! 💥💫\nDet där var Hammarby Baskets 90e mål totalt under turneringen. Vi väntar med spänning på vem som tar ledningen efter att Hammarby Basket kvitterat 😃",
+          "en": "After that last goal, Hammarby Basket have a total of 90 made and 150 lost goals😁"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780162894947,
+        "relativeTime": 373258,
+        "id": 81253174,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.58E-4
+    },
+    "MatchEvent({id:81254183})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254183
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎉 Det är så det går till! 🎉💥🏆\nKvarnby Basket gör sitt andra mål på raken!",
+          "en": "2 goals in a row for Kvarnby Basket😛"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780164013030,
+        "relativeTime": 2511454,
+        "id": 81254183,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.58E-4
+    },
+    "MatchEvent({id:81253749})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253749
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 13,
+        "awayScore": 22,
+        "value": 3,
+        "side": "home",
+        "playerName": "Lucas Mouravidze",
+        "playerNr": 7,
+        "likedBy": [],
+        "absoluteTime": 1780163590801,
+        "relativeTime": 1069112,
+        "id": 81253749,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.38E-4
+    },
+    "MatchEvent({id:81254735})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254735
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 28,
+        "awayScore": 38,
+        "value": 3,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780164513235,
+        "relativeTime": 2284375,
+        "id": 81254735,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.6E-4
+    },
+    "MatchEvent({id:81254589})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254589
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "isPeriodStart": true,
+        "pointsPerPeriod": false,
+        "homeScore": 25,
+        "awayScore": 38,
+        "winByPeriods": false,
+        "likedBy": [],
+        "absoluteTime": 1780164328860,
+        "relativeTime": 2100000,
+        "id": 81254589,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.14E-4
+    },
+    "MatchEvent({id:81253552})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253552
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 8,
+        "awayScore": 16,
+        "value": 2,
+        "side": "home",
+        "playerName": "Lucas Mouravidze",
+        "playerNr": 7,
+        "likedBy": [],
+        "absoluteTime": 1780163331131,
+        "relativeTime": 809442,
+        "id": 81253552,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.29E-4
+    },
+    "MatchEvent({id:81255945})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255945
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Mål efter mål för Kvarnby Basket😄 Nu bara rasar målen in.",
+          "en": "4 goals in a row for Kvarnby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780165805304,
+        "relativeTime": 2644221,
+        "id": 81255945,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.25E-4
+    },
+    "Match({id:80003664})$nextMatchLoser": {
+      "cachetags": [
+        {
+          "taint": [
+            "match",
+            "match_plan"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "auditResolveTimeMs": 0.012659
+    },
+    "MatchEvent({id:81253538})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253538
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 16,
+        "value": 2,
+        "side": "away",
+        "playerName": "Ebbe Lagerwall Petrén",
+        "playerNr": 11,
+        "likedBy": [],
+        "absoluteTime": 1780163317398,
+        "relativeTime": 795709,
+        "id": 81253538,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.36E-4
+    },
+    "MatchEvent({id:81253576})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253576
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchTimeout",
+        "side": "home",
+        "likedBy": [],
+        "absoluteTime": 1780163364035,
+        "relativeTime": 842346,
+        "id": 81253576,
+        "period": 0
+      },
+      "auditResolveTimeMs": 3.53E-4
+    },
+    "MatchEvent({id:81254062})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254062
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🏆 Bollen smög över mållinjen 🎊🎊🎉\nMål efter mål för Hammarby Basket😃 Nu bara rasar målen in. Kämpa på Kvarnby Basket, ni sätter nästa!",
+          "en": "4 goals in a row for Hammarby Basket😁"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163915598,
+        "relativeTime": 2414022,
+        "id": 81254062,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.6E-4
+    },
+    "MatchEvent({id:81255903})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255903
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 47,
+        "awayScore": 55,
+        "value": 1,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780165752452,
+        "relativeTime": 2591369,
+        "id": 81255903,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.1E-4
+    },
+    "MatchEvent({id:81255987})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255987
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 53,
+        "awayScore": 55,
+        "value": 3,
+        "side": "home",
+        "playerName": "Kasper Hallberg",
+        "playerNr": 21,
+        "likedBy": [],
+        "absoluteTime": 1780165866250,
+        "relativeTime": 2705167,
+        "id": 81255987,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.16E-4
+    },
+    "MatchEvent({id:81254542})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254542
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 38,
+        "value": 2,
+        "side": "away",
+        "playerName": "Jonny Bui",
+        "playerNr": 19,
+        "likedBy": [],
+        "absoluteTime": 1780164283568,
+        "relativeTime": 2781992,
+        "id": 81254542,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.29E-4
+    },
+    "MatchEvent({id:81253515})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253515
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 14,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tor Söderblom",
+        "playerNr": 9,
+        "likedBy": [],
+        "absoluteTime": 1780163295226,
+        "relativeTime": 773537,
+        "id": 81253515,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.38E-4
+    },
+    "MatchEvent({id:81255922})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255922
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 48,
+        "awayScore": 55,
+        "value": 1,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780165764511,
+        "relativeTime": 2603428,
+        "id": 81255922,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.51E-4
+    },
+    "MatchEvent({id:81253681})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253681
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 10,
+        "awayScore": 19,
+        "value": 2,
+        "side": "home",
+        "playerName": "Kasper Hallberg",
+        "playerNr": 21,
+        "likedBy": [],
+        "absoluteTime": 1780163507706,
+        "relativeTime": 986017,
+        "id": 81253681,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.96E-4
+    },
+    "MatchEvent({id:81253844})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253844
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 13,
+        "awayScore": 24,
+        "value": 2,
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [],
+        "absoluteTime": 1780163688201,
+        "relativeTime": 2186625,
+        "id": 81253844,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.49E-4
+    },
+    "MatchEvent({id:81255317})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255317
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 39,
+        "awayScore": 43,
+        "value": 1,
+        "side": "home",
+        "playerName": "Antony Tomic",
+        "playerNr": 13,
+        "likedBy": [],
+        "absoluteTime": 1780165115431,
+        "relativeTime": 2886571,
+        "id": 81255317,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.55E-4
+    },
+    "MatchEvent({id:81254024})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254024
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Hammarby Basket gör sitt tredje mål på raken!",
+          "en": "3 goals in a row for Hammarby Basket😃"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163878981,
+        "relativeTime": 2377405,
+        "id": 81254024,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.99E-4
+    },
+    "MatchEvent({id:81253492})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253492
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 12,
+        "value": 1,
+        "side": "away",
+        "playerName": "Ebbe Lagerwall Petrén",
+        "playerNr": 11,
+        "likedBy": [],
+        "absoluteTime": 1780163260803,
+        "relativeTime": 739114,
+        "id": 81253492,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.38E-4
+    },
+    "MatchEvent({id:81256200})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256200
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchTimeout",
+        "side": "home",
+        "likedBy": [],
+        "absoluteTime": 1780166195588,
+        "relativeTime": 3034505,
+        "id": 81256200,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.43E-4
+    },
+    "Location({id:50286752,tid:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "location"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Location",
+        "areaMaps": {
+          "href": "Location({id:50286752,tid:69211459})$areaMaps"
+        },
+        "pointsOfInterest": {
+          "href": "Location({id:50286752,tid:69211459})$pointsOfInterest"
+        },
+        "persons": {
+          "href": "Location({id:50286752,tid:69211459})$persons"
+        },
+        "lodging": false,
+        "arena": true,
+        "arenas": {
+          "href": "Location({id:50286752,tid:69211459})$arenas"
+        },
+        "restaurant": false,
+        "name": "Skanskvarnshallen",
+        "id": 50286752,
+        "location": {
+          "href": "Location({id:50286752,tid:69211459})$location"
+        },
+        "address": {
+          "href": "Address({eid:50286752,tid:69211459})"
+        }
+      },
+      "auditResolveTimeMs": 0.005826
+    },
+    "MatchEvent({id:81254974})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254974
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal",
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Alex Cortez",
+        "playerNr": 15,
+        "likedBy": [],
+        "absoluteTime": 1780164765435,
+        "relativeTime": 2536575,
+        "id": 81254974,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.63E-4
+    },
+    "MatchEvent({id:81253371})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253371
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Hammarby Basket gör sitt andra mål på raken! Matchen är öppen efter kvitteringen, vem tar kommandot?",
+          "en": "2 goals in a row for Hammarby Basket😃"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163116648,
+        "relativeTime": 594959,
+        "id": 81253371,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.27E-4
+    },
+    "MatchEvent({id:81255301})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255301
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Tor Söderblom",
+        "playerNr": 9,
+        "likedBy": [],
+        "absoluteTime": 1780165095382,
+        "relativeTime": 2866522,
+        "id": 81255301,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.33E-4
+    },
+    "Match({id:80003664})$referees": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_referee_id"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": [
+        {
+          "__typename": "Match$MatchReferee",
+          "position": "MainJudge",
+          "positionName": {
+            "nb": "Hoveddommer",
+            "de": "Hauptschiedsrichter",
+            "sv": "Huvuddomare",
+            "en": "Main referee"
+          },
+          "referee": {
+            "href": "Referee({id:78480126})"
+          }
+        },
+        {
+          "__typename": "Match$MatchReferee",
+          "position": "None",
+          "positionName": {
+            "de": "Schiedsrichter (andere)",
+            "sv": "Domare (Övrig)",
+            "en": "Referee (Other)"
+          },
+          "referee": {
+            "href": "Referee({id:80001109})"
+          }
+        }
+      ],
+      "auditResolveTimeMs": 4.922386
+    },
+    "MatchEvent({id:81253398})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253398
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 8,
+        "value": 2,
+        "side": "away",
+        "playerName": "Ebbe Lagerwall Petrén",
+        "playerNr": 11,
+        "likedBy": [],
+        "absoluteTime": 1780163160946,
+        "relativeTime": 639257,
+        "id": 81253398,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.18E-4
+    },
+    "MatchEvent({id:81254463})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254463
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 36,
+        "value": 2,
+        "side": "away",
+        "playerName": "Ebbe Lagerwall Petrén",
+        "playerNr": 11,
+        "likedBy": [],
+        "absoluteTime": 1780164203798,
+        "relativeTime": 2702222,
+        "id": 81254463,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.31E-4
+    },
+    "MatchEvent({id:81254304})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254304
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 32,
+        "value": 2,
+        "side": "home",
+        "playerName": "Lucas Mouravidze",
+        "playerNr": 7,
+        "likedBy": [],
+        "absoluteTime": 1780164086287,
+        "relativeTime": 2584711,
+        "id": 81254304,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.35E-4
+    },
+    "MatchEvent({id:81255994})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255994
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 53,
+        "awayScore": 57,
+        "value": 2,
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [],
+        "absoluteTime": 1780165880936,
+        "relativeTime": 2719853,
+        "id": 81255994,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.34E-4
+    },
+    "MatchEvent({id:81253900})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253900
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Mål efter mål för Hammarby Basket. Nu bara rasar målen in.",
+          "en": "2 goals in a row for Hammarby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163743904,
+        "relativeTime": 2242328,
+        "id": 81253900,
+        "period": 1
+      },
+      "auditResolveTimeMs": 4.65E-4
+    },
+    "MatchEvent({id:81255033})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255033
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 32,
+        "awayScore": 41,
+        "value": 2,
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [],
+        "absoluteTime": 1780164811250,
+        "relativeTime": 2582390,
+        "id": 81255033,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.82E-4
+    },
+    "MatchFeed({id:80003664})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_matchId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchFeed",
+        "statistics": {
+          "href": "MatchFeed({id:80003664})$statistics"
+        },
+        "matchId": 80003664,
+        "timeZone": "Europe/Stockholm",
+        "liveStartTime": 1780162521689,
+        "zonedLiveStartTime": 1780162521689,
+        "availableComments": {
+          "__typename": "MatchFeed$MatchFeedAvailableComments",
+          "under": [
+            "COME_ON",
+            "BELIEVE_IN_YOU",
+            "TRUST_YOU_FIX"
+          ],
+          "leader": [
+            "PLAY_GOOD",
+            "KEEP_LEAD",
+            "NICE_PLAY"
+          ],
+          "before": [
+            "GOOD_LUCK",
+            "LOOKING_FORWARD"
+          ],
+          "finished": [
+            "THANK_YOU",
+            "NICE_GAME",
+            "THANKS_REFEREE"
+          ]
+        },
+        "events": [
+          {
+            "href": "MatchEvent({id:81252870})"
+          },
+          {
+            "href": "MatchEvent({id:81253134})"
+          },
+          {
+            "href": "MatchEvent({id:81253133})"
+          },
+          {
+            "href": "MatchEvent({id:81253174})"
+          },
+          {
+            "href": "MatchEvent({id:81253173})"
+          },
+          {
+            "href": "MatchEvent({id:81253179})"
+          },
+          {
+            "href": "MatchEvent({id:81253212})"
+          },
+          {
+            "href": "MatchEvent({id:81253210})"
+          },
+          {
+            "href": "MatchEvent({id:81253255})"
+          },
+          {
+            "href": "MatchEvent({id:81253336})"
+          },
+          {
+            "href": "MatchEvent({id:81253371})"
+          },
+          {
+            "href": "MatchEvent({id:81253370})"
+          },
+          {
+            "href": "MatchEvent({id:81253379})"
+          },
+          {
+            "href": "MatchEvent({id:81253399})"
+          },
+          {
+            "href": "MatchEvent({id:81253398})"
+          },
+          {
+            "href": "MatchEvent({id:81253434})"
+          },
+          {
+            "href": "MatchEvent({id:81253433})"
+          },
+          {
+            "href": "MatchEvent({id:81253457})"
+          },
+          {
+            "href": "MatchEvent({id:81253493})"
+          },
+          {
+            "href": "MatchEvent({id:81253492})"
+          },
+          {
+            "href": "MatchEvent({id:81253515})"
+          },
+          {
+            "href": "MatchEvent({id:81253538})"
+          },
+          {
+            "href": "MatchEvent({id:81253552})"
+          },
+          {
+            "href": "MatchEvent({id:81253567})"
+          },
+          {
+            "href": "MatchEvent({id:81253576})"
+          },
+          {
+            "href": "MatchEvent({id:81253582})"
+          },
+          {
+            "href": "MatchEvent({id:81253657})"
+          },
+          {
+            "href": "MatchEvent({id:81253681})"
+          },
+          {
+            "href": "MatchEvent({id:81253717})"
+          },
+          {
+            "href": "MatchEvent({id:81253749})"
+          },
+          {
+            "href": "MatchEvent({id:81253767})"
+          },
+          {
+            "href": "MatchEvent({id:81253770})"
+          },
+          {
+            "href": "MatchEvent({id:81253844})"
+          },
+          {
+            "href": "MatchEvent({id:81253847})"
+          },
+          {
+            "href": "MatchEvent({id:81253900})"
+          },
+          {
+            "href": "MatchEvent({id:81253899})"
+          },
+          {
+            "href": "MatchEvent({id:81254024})"
+          },
+          {
+            "href": "MatchEvent({id:81254023})"
+          },
+          {
+            "href": "MatchEvent({id:81254045})"
+          },
+          {
+            "href": "MatchEvent({id:81254062})"
+          },
+          {
+            "href": "MatchEvent({id:81254060})"
+          },
+          {
+            "href": "MatchEvent({id:81254076})"
+          },
+          {
+            "href": "MatchEvent({id:81254075})"
+          },
+          {
+            "href": "MatchEvent({id:81254106})"
+          },
+          {
+            "href": "MatchEvent({id:81254155})"
+          },
+          {
+            "href": "MatchEvent({id:81254183})"
+          },
+          {
+            "href": "MatchEvent({id:81254182})"
+          },
+          {
+            "href": "MatchEvent({id:81254212})"
+          },
+          {
+            "href": "MatchEvent({id:81254211})"
+          },
+          {
+            "href": "MatchEvent({id:81254258})"
+          },
+          {
+            "href": "MatchEvent({id:81254304})"
+          },
+          {
+            "href": "MatchEvent({id:81254443})"
+          },
+          {
+            "href": "MatchEvent({id:81254464})"
+          },
+          {
+            "href": "MatchEvent({id:81254463})"
+          },
+          {
+            "href": "MatchEvent({id:81254543})"
+          },
+          {
+            "href": "MatchEvent({id:81254542})"
+          },
+          {
+            "href": "MatchEvent({id:81254555})"
+          },
+          {
+            "href": "MatchEvent({id:81254586})"
+          },
+          {
+            "href": "MatchEvent({id:81254589})"
+          },
+          {
+            "href": "MatchEvent({id:81254736})"
+          },
+          {
+            "href": "MatchEvent({id:81254735})"
+          },
+          {
+            "href": "MatchEvent({id:81254746})"
+          },
+          {
+            "href": "MatchEvent({id:81254778})"
+          },
+          {
+            "href": "MatchEvent({id:81254801})"
+          },
+          {
+            "href": "MatchEvent({id:81254813})"
+          },
+          {
+            "href": "MatchEvent({id:81254812})"
+          },
+          {
+            "href": "MatchEvent({id:81254827})"
+          },
+          {
+            "href": "MatchEvent({id:81254907})"
+          },
+          {
+            "href": "MatchEvent({id:81254949})"
+          },
+          {
+            "href": "MatchEvent({id:81254944})"
+          },
+          {
+            "href": "MatchEvent({id:81254974})"
+          },
+          {
+            "href": "MatchEvent({id:81255033})"
+          },
+          {
+            "href": "MatchEvent({id:81255050})"
+          },
+          {
+            "href": "MatchEvent({id:81255065})"
+          },
+          {
+            "href": "MatchEvent({id:81255089})"
+          },
+          {
+            "href": "MatchEvent({id:81255190})"
+          },
+          {
+            "href": "MatchEvent({id:81255201})"
+          },
+          {
+            "href": "MatchEvent({id:81255217})"
+          },
+          {
+            "href": "MatchEvent({id:81255220})"
+          },
+          {
+            "href": "MatchEvent({id:81255221})"
+          },
+          {
+            "href": "MatchEvent({id:81255301})"
+          },
+          {
+            "href": "MatchEvent({id:81255318})"
+          },
+          {
+            "href": "MatchEvent({id:81255317})"
+          },
+          {
+            "href": "MatchEvent({id:81255356})"
+          },
+          {
+            "href": "MatchEvent({id:81255395})"
+          },
+          {
+            "href": "MatchEvent({id:81255394})"
+          },
+          {
+            "href": "MatchEvent({id:81255404})"
+          },
+          {
+            "href": "MatchEvent({id:81255413})"
+          },
+          {
+            "href": "MatchEvent({id:81255442})"
+          },
+          {
+            "href": "MatchEvent({id:81255444})"
+          },
+          {
+            "href": "MatchEvent({id:81255476})"
+          },
+          {
+            "href": "MatchEvent({id:81255485})"
+          },
+          {
+            "href": "MatchEvent({id:81255489})"
+          },
+          {
+            "href": "MatchEvent({id:81255627})"
+          },
+          {
+            "href": "MatchEvent({id:81255624})"
+          },
+          {
+            "href": "MatchEvent({id:81255661})"
+          },
+          {
+            "href": "MatchEvent({id:81255720})"
+          },
+          {
+            "href": "MatchEvent({id:81255822})"
+          },
+          {
+            "href": "MatchEvent({id:81255852})"
+          },
+          {
+            "href": "MatchEvent({id:81255890})"
+          },
+          {
+            "href": "MatchEvent({id:81255904})"
+          },
+          {
+            "href": "MatchEvent({id:81255903})"
+          },
+          {
+            "href": "MatchEvent({id:81255923})"
+          },
+          {
+            "href": "MatchEvent({id:81255922})"
+          },
+          {
+            "href": "MatchEvent({id:81255945})"
+          },
+          {
+            "href": "MatchEvent({id:81255943})"
+          },
+          {
+            "href": "MatchEvent({id:81255988})"
+          },
+          {
+            "href": "MatchEvent({id:81255987})"
+          },
+          {
+            "href": "MatchEvent({id:81255994})"
+          },
+          {
+            "href": "MatchEvent({id:81256002})"
+          },
+          {
+            "href": "MatchEvent({id:81256064})"
+          },
+          {
+            "href": "MatchEvent({id:81256088})"
+          },
+          {
+            "href": "MatchEvent({id:81256117})"
+          },
+          {
+            "href": "MatchEvent({id:81256120})"
+          },
+          {
+            "href": "MatchEvent({id:81256178})"
+          },
+          {
+            "href": "MatchEvent({id:81256183})"
+          },
+          {
+            "href": "MatchEvent({id:81256200})"
+          },
+          {
+            "href": "MatchEvent({id:81256254})"
+          },
+          {
+            "href": "MatchEvent({id:81256297})"
+          },
+          {
+            "href": "MatchEvent({id:81256348})"
+          }
+        ]
+      },
+      "auditResolveTimeMs": 0.015709
+    },
+    "MatchEvent({id:81255476})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255476
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 43,
+        "awayScore": 51,
+        "value": 2,
+        "side": "away",
+        "playerName": "Jonny Bui",
+        "playerNr": 19,
+        "likedBy": [
+          "Pär"
+        ],
+        "absoluteTime": 1780165247436,
+        "relativeTime": 3018576,
+        "id": 81255476,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.77E-4
+    },
+    "MatchEvent({id:81255627})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255627
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "2 mål efter varandra för Hammarby Basket! Nu verkar det som om de sätter fart😀 Ge inte upp Kvarnby Basket, ni sätter nästa istället!",
+          "en": "2 goals in a row for Hammarby Basket😀"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780165411056,
+        "relativeTime": 2249973,
+        "id": 81255627,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.6E-4
+    },
+    "MatchEvent({id:81256297})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256297
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "likedBy": [],
+        "absoluteTime": 1780166317020,
+        "relativeTime": 3155937,
+        "id": 81256297,
+        "period": 3
+      },
+      "auditResolveTimeMs": 6.05E-4
+    },
+    "MatchEvent({id:81256002})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256002
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 55,
+        "awayScore": 57,
+        "value": 2,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780165897695,
+        "relativeTime": 2736612,
+        "id": 81256002,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.31E-4
+    },
+    "Category({categoryId:69211502,tournamentId:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Category",
+        "teamHighscore": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})$teamHighscore"
+        },
+        "teamGreenCards": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})$teamGreenCards"
+        },
+        "stageResultOrder": [
+          {
+            "nb": "Poeng",
+            "de": "Punkte",
+            "zh": "积分",
+            "es": "Puntos",
+            "sv": "Poäng",
+            "en": "Points"
+          },
+          {
+            "nb": "Målforskjell",
+            "de": "Tordifferenz",
+            "da": "Målforskel",
+            "zh": "净胜球",
+            "es": "Diferencia de goles",
+            "sv": "Målskillnad",
+            "en": "Goal difference",
+            "fr": "Écarts total buts"
+          },
+          {
+            "nb": "Scorede mål",
+            "de": "Erzielte Tore",
+            "da": "Scorede mål",
+            "zh": "进球",
+            "es": "Goles anotados",
+            "sv": "Gjorda mål",
+            "en": "Scored goals"
+          },
+          {
+            "nb": "Loddtrekkning",
+            "de": "Ziehung der Lose",
+            "da": "Lotteri",
+            "zh": "抽签",
+            "es": "Por loteria",
+            "sv": "Lottning",
+            "en": "By lottery"
+          }
+        ],
+        "hidePlayers": false,
+        "registerYellowCards": false,
+        "useRefereeReports": false,
+        "registerRedCards": false,
+        "hideConferenceResults": false,
+        "onlyFirstStage": false,
+        "topPlayers": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})$topPlayers"
+        },
+        "registerAssists": false,
+        "registerShots": false,
+        "useClockInLiveReporting": false,
+        "registerGreenCards": false,
+        "hideMatchResults": false,
+        "resultOrder": [
+          {
+            "nb": "Poeng",
+            "de": "Punkte",
+            "zh": "积分",
+            "es": "Puntos",
+            "sv": "Poäng",
+            "en": "Points"
+          },
+          {
+            "nb": "Poeng (innbyrdes)",
+            "de": "Punkte (Direktvergleich)",
+            "da": "Points (indbyrdes møder)",
+            "zh": "相互比赛积分多者",
+            "es": "Puntos  (head-to-head)",
+            "sv": "Poäng (inbördes möten)",
+            "en": "Points (head-to-head)"
+          },
+          {
+            "nb": "Målforskjell (innbyrdes)",
+            "de": "Tordifferenz (Direktvergleich)",
+            "da": "Målforskel (indbyrdes møder)",
+            "zh": "相互比赛净胜球多者",
+            "es": "Diferencia de goles (head-to-head)",
+            "sv": "Målskillnad (inbördes möten)",
+            "en": "Goal difference (head-to-head)"
+          },
+          {
+            "nb": "Målforskjell",
+            "de": "Tordifferenz",
+            "da": "Målforskel",
+            "zh": "净胜球",
+            "es": "Diferencia de goles",
+            "sv": "Målskillnad",
+            "en": "Goal difference",
+            "fr": "Écarts total buts"
+          },
+          {
+            "nb": "Scorede mål",
+            "de": "Erzielte Tore",
+            "da": "Scorede mål",
+            "zh": "进球",
+            "es": "Goles anotados",
+            "sv": "Gjorda mål",
+            "en": "Scored goals"
+          },
+          {
+            "nb": "Loddtrekkning",
+            "de": "Ziehung der Lose",
+            "da": "Lotteri",
+            "zh": "抽签",
+            "es": "Por loteria",
+            "sv": "Lottning",
+            "en": "By lottery"
+          }
+        ],
+        "stageTeamStrategy": "scorePerMatch",
+        "singleConference": false,
+        "matchesCanTie": false,
+        "registerRebounds": false,
+        "registerSteals": false,
+        "registerBlocks": false,
+        "hideGoalResults": false,
+        "countdownLiveClock": false,
+        "schedulePublished": true,
+        "lotPublished": true,
+        "statistics": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})$statistics"
+        },
+        "teamLimit": 12,
+        "stages": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})$stages"
+        },
+        "gender": "men",
+        "teams": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})$teams"
+        },
+        "showLivePauseLength": false,
+        "name": "Boys 2011 Open",
+        "id": 69211502,
+        "shortName": "B2011O",
+        "age": 15
+      },
+      "auditResolveTimeMs": 0.024207
+    },
+    "MatchEvent({id:81252870})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81252870
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "isPeriodStart": true,
+        "pointsPerPeriod": false,
+        "homeScore": 0,
+        "awayScore": 0,
+        "winByPeriods": false,
+        "likedBy": [],
+        "absoluteTime": 1780162521689,
+        "relativeTime": 0,
+        "id": 81252870,
+        "period": 0
+      },
+      "auditResolveTimeMs": 0.001706
+    },
+    "MatchEvent({id:81254801})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254801
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 28,
+        "awayScore": 39,
+        "value": 1,
+        "side": "away",
+        "playerName": "Alex Cortez",
+        "playerNr": 15,
+        "likedBy": [],
+        "absoluteTime": 1780164597768,
+        "relativeTime": 2368908,
+        "id": 81254801,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.4E-4
+    },
+    "MatchEvent({id:81254907})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254907
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Alex Cortez",
+        "playerNr": 15,
+        "likedBy": [],
+        "absoluteTime": 1780164700850,
+        "relativeTime": 2471990,
+        "id": 81254907,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.45E-4
+    },
+    "MatchEvent({id:81253210})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253210
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 2,
+        "value": 2,
+        "side": "home",
+        "playerName": "Sixten Offerle",
+        "playerNr": 37,
+        "likedBy": [],
+        "absoluteTime": 1780162934078,
+        "relativeTime": 412389,
+        "id": 81253210,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.53E-4
+    },
+    "MatchEvent({id:81254075})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254075
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 13,
+        "awayScore": 30,
+        "value": 1,
+        "side": "away",
+        "playerName": "Tage Rosén",
+        "playerNr": 23,
+        "likedBy": [],
+        "absoluteTime": 1780163927302,
+        "relativeTime": 2425726,
+        "id": 81254075,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.31E-4
+    },
+    "MatchEvent({id:81255395})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255395
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Jag noterar 2 mål efter varandra för Hammarby Basket😃 Gör de nästa mål också?",
+          "en": "2 goals in a row for Hammarby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780165173213,
+        "relativeTime": 2944353,
+        "id": 81255395,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.59E-4
+    },
+    "MatchEvent({id:81253433})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253433
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 11,
+        "value": 3,
+        "side": "away",
+        "playerName": "Ebbe Lagerwall Petrén",
+        "playerNr": 11,
+        "likedBy": [],
+        "absoluteTime": 1780163194526,
+        "relativeTime": 672837,
+        "id": 81253433,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.51E-4
+    },
+    "MatchEvent({id:81253173})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253173
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 2,
+        "awayScore": 2,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tor Söderblom",
+        "playerNr": 9,
+        "likedBy": [],
+        "absoluteTime": 1780162895730,
+        "relativeTime": 374041,
+        "id": 81253173,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.67E-4
+    },
+    "MatchFeed({id:80003664})$statistics": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_matchId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchFeed$EventStatistics",
+        "home": {
+          "__typename": "EventStatistics$TeamStats",
+          "shots": 55,
+          "goals": 55,
+          "lost": 58,
+          "saves": 0,
+          "redCards": 0,
+          "yellowCards": 0,
+          "greenCards": 0,
+          "penaltiesMinutes": 0,
+          "penaltiesCount": 0,
+          "threePointers": 7,
+          "twoPointers": 15,
+          "onePointers": 4,
+          "lostThreePointers": 3,
+          "lostTwoPointers": 22,
+          "lostOnePointers": 5,
+          "timeouts": 3,
+          "fouls_technical": 1,
+          "fouls_personal": 10,
+          "fouls_unsportsmanlike": 0,
+          "fouls_disqualifying": 0,
+          "rebounds": 0,
+          "blockedShots": 0,
+          "steals": 0,
+          "matchesWon": 0,
+          "matchesTied": 0,
+          "matchesLost": 0,
+          "formGuide": [],
+          "goalkeepers": [],
+          "players": [],
+          "cards": []
+        },
+        "away": {
+          "__typename": "EventStatistics$TeamStats",
+          "shots": 58,
+          "goals": 58,
+          "lost": 55,
+          "saves": 0,
+          "redCards": 0,
+          "yellowCards": 0,
+          "greenCards": 0,
+          "penaltiesMinutes": 0,
+          "penaltiesCount": 0,
+          "threePointers": 3,
+          "twoPointers": 22,
+          "onePointers": 5,
+          "lostThreePointers": 7,
+          "lostTwoPointers": 15,
+          "lostOnePointers": 4,
+          "timeouts": 0,
+          "fouls_technical": 0,
+          "fouls_personal": 12,
+          "fouls_unsportsmanlike": 0,
+          "fouls_disqualifying": 0,
+          "rebounds": 0,
+          "blockedShots": 0,
+          "steals": 0,
+          "matchesWon": 0,
+          "matchesTied": 0,
+          "matchesLost": 0,
+          "formGuide": [],
+          "goalkeepers": [],
+          "players": [],
+          "cards": []
+        },
+        "periods": [
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 0,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 13,
+              "goals": 13,
+              "lost": 22,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 1,
+              "twoPointers": 5,
+              "onePointers": 0,
+              "lostThreePointers": 3,
+              "lostTwoPointers": 6,
+              "lostOnePointers": 1,
+              "timeouts": 1,
+              "fouls_technical": 0,
+              "fouls_personal": 2,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80501223,
+                  "name": "Eliott Bordes",
+                  "shirtNr": 49,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297706,
+                  "name": "Lucas Mouravidze",
+                  "shirtNr": 7,
+                  "goals": 7,
+                  "assists": 0,
+                  "shots": 7,
+                  "threePointers": 1,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297591,
+                  "name": "Sixten Offerle",
+                  "shirtNr": 37,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297597,
+                  "name": "Kasper Hallberg",
+                  "shirtNr": 21,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 22,
+              "goals": 22,
+              "lost": 13,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 3,
+              "twoPointers": 6,
+              "onePointers": 1,
+              "lostThreePointers": 1,
+              "lostTwoPointers": 5,
+              "lostOnePointers": 0,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 2,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531630,
+                  "name": "Tor Söderblom",
+                  "shirtNr": 9,
+                  "goals": 6,
+                  "assists": 0,
+                  "shots": 6,
+                  "threePointers": 0,
+                  "twoPointers": 3,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531679,
+                  "name": "Viggo De Vicente",
+                  "shirtNr": 38,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531472,
+                  "name": "Alex Cortez",
+                  "shirtNr": 15,
+                  "goals": 5,
+                  "assists": 0,
+                  "shots": 5,
+                  "threePointers": 1,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531517,
+                  "name": "Ebbe Lagerwall Petrén",
+                  "shirtNr": 11,
+                  "goals": 8,
+                  "assists": 0,
+                  "shots": 8,
+                  "threePointers": 1,
+                  "twoPointers": 2,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          },
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 1,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 12,
+              "goals": 12,
+              "lost": 16,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 2,
+              "twoPointers": 3,
+              "onePointers": 0,
+              "lostThreePointers": 0,
+              "lostTwoPointers": 7,
+              "lostOnePointers": 2,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 2,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297604,
+                  "name": "Andrija Savic",
+                  "shirtNr": 23,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297706,
+                  "name": "Lucas Mouravidze",
+                  "shirtNr": 7,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80501223,
+                  "name": "Eliott Bordes",
+                  "shirtNr": 49,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297601,
+                  "name": "Leon Doormann",
+                  "shirtNr": 45,
+                  "goals": 5,
+                  "assists": 0,
+                  "shots": 5,
+                  "threePointers": 1,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 16,
+              "goals": 16,
+              "lost": 12,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 0,
+              "twoPointers": 7,
+              "onePointers": 2,
+              "lostThreePointers": 2,
+              "lostTwoPointers": 3,
+              "lostOnePointers": 0,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 1,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531589,
+                  "name": "Oskar Källström",
+                  "shirtNr": 5,
+                  "goals": 6,
+                  "assists": 0,
+                  "shots": 6,
+                  "threePointers": 0,
+                  "twoPointers": 3,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531613,
+                  "name": "Tage Rosén",
+                  "shirtNr": 23,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 2,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531562,
+                  "name": "Jonny Bui",
+                  "shirtNr": 19,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531517,
+                  "name": "Ebbe Lagerwall Petrén",
+                  "shirtNr": 11,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          },
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 2,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 18,
+              "goals": 18,
+              "lost": 13,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 3,
+              "twoPointers": 4,
+              "onePointers": 1,
+              "lostThreePointers": 0,
+              "lostTwoPointers": 6,
+              "lostOnePointers": 1,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 4,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80501223,
+                  "name": "Eliott Bordes",
+                  "shirtNr": 49,
+                  "goals": 5,
+                  "assists": 0,
+                  "shots": 5,
+                  "threePointers": 1,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297601,
+                  "name": "Leon Doormann",
+                  "shirtNr": 45,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 81149507,
+                  "name": "Antony Tomic",
+                  "shirtNr": 13,
+                  "goals": 9,
+                  "assists": 0,
+                  "shots": 9,
+                  "threePointers": 2,
+                  "twoPointers": 1,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297706,
+                  "name": "Lucas Mouravidze",
+                  "shirtNr": 7,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297597,
+                  "name": "Kasper Hallberg",
+                  "shirtNr": 21,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 13,
+              "goals": 13,
+              "lost": 18,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 0,
+              "twoPointers": 6,
+              "onePointers": 1,
+              "lostThreePointers": 3,
+              "lostTwoPointers": 4,
+              "lostOnePointers": 1,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 5,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531472,
+                  "name": "Alex Cortez",
+                  "shirtNr": 15,
+                  "goals": 1,
+                  "assists": 0,
+                  "shots": 1,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531589,
+                  "name": "Oskar Källström",
+                  "shirtNr": 5,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531630,
+                  "name": "Tor Söderblom",
+                  "shirtNr": 9,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531613,
+                  "name": "Tage Rosén",
+                  "shirtNr": 23,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531679,
+                  "name": "Viggo De Vicente",
+                  "shirtNr": 38,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531562,
+                  "name": "Jonny Bui",
+                  "shirtNr": 19,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          },
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 3,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 12,
+              "goals": 12,
+              "lost": 7,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 1,
+              "twoPointers": 3,
+              "onePointers": 3,
+              "lostThreePointers": 0,
+              "lostTwoPointers": 3,
+              "lostOnePointers": 1,
+              "timeouts": 2,
+              "fouls_technical": 1,
+              "fouls_personal": 2,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297591,
+                  "name": "Sixten Offerle",
+                  "shirtNr": 37,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 81149507,
+                  "name": "Antony Tomic",
+                  "shirtNr": 13,
+                  "goals": 1,
+                  "assists": 0,
+                  "shots": 1,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80501223,
+                  "name": "Eliott Bordes",
+                  "shirtNr": 49,
+                  "goals": 6,
+                  "assists": 0,
+                  "shots": 6,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 2,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297597,
+                  "name": "Kasper Hallberg",
+                  "shirtNr": 21,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297601,
+                  "name": "Leon Doormann",
+                  "shirtNr": 45,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "technical",
+                    "personal"
+                  ],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 7,
+              "goals": 7,
+              "lost": 12,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 0,
+              "twoPointers": 3,
+              "onePointers": 1,
+              "lostThreePointers": 1,
+              "lostTwoPointers": 3,
+              "lostOnePointers": 3,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 4,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531573,
+                  "name": "Oliver Johansson",
+                  "shirtNr": 1,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531613,
+                  "name": "Tage Rosén",
+                  "shirtNr": 23,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531542,
+                  "name": "Johannes Larsson",
+                  "shirtNr": 17,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531517,
+                  "name": "Ebbe Lagerwall Petrén",
+                  "shirtNr": 11,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80531589,
+                  "name": "Oskar Källström",
+                  "shirtNr": 5,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          }
+        ]
+      },
+      "auditResolveTimeMs": 6.38E-4
+    },
+    "MatchEvent({id:81254949})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254949
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎈 Härlig fart i Skanskvarnshallen! 💫🎊🎈\nKvarnby Basket gör sitt andra mål på raken! Se upp Hammarby Basket! Kvarnby Basket kämpar sig närmre och närmre. Nu bara 7 mål kvar upp till kvittering",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780164736777,
+        "relativeTime": 2507917,
+        "id": 81254949,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.4E-4
+    },
+    "MatchEvent({id:81255485})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255485
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "likedBy": [],
+        "absoluteTime": 1780165257893,
+        "relativeTime": 3029033,
+        "id": 81255485,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.99E-4
+    },
+    "Referee({id:80001109})": {
+      "cachetags": [
+        {
+          "taint": [
+            "referee",
+            "referee_refereeId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80001109
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Referee",
+        "timeline": {
+          "href": "Referee({id:80001109})$timeline"
+        },
+        "name": "Pierre kaspo",
+        "matches": {
+          "href": "Referee({id:80001109})$matches"
+        },
+        "id": 80001109,
+        "isPublic": true,
+        "me": {
+          "href": "MeReferee({id:80001109})"
+        },
+        "number": "41",
+        "days": {
+          "href": "Referee({id:80001109})$days"
+        }
+      },
+      "auditResolveTimeMs": 0.013915
+    },
+    "MatchEvent({id:81255489})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255489
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "isPeriodStart": true,
+        "pointsPerPeriod": false,
+        "homeScore": 43,
+        "awayScore": 51,
+        "winByPeriods": false,
+        "likedBy": [],
+        "absoluteTime": 1780165261083,
+        "relativeTime": 2100000,
+        "id": 81255489,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.36E-4
+    },
+    "MatchEvent({id:81255444})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255444
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 43,
+        "awayScore": 49,
+        "value": 2,
+        "side": "home",
+        "playerName": "Kasper Hallberg",
+        "playerNr": 21,
+        "likedBy": [],
+        "absoluteTime": 1780165225993,
+        "relativeTime": 2997133,
+        "id": 81255444,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.73E-4
+    },
+    "MatchEvent({id:81254812})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254812
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 30,
+        "awayScore": 39,
+        "value": 2,
+        "side": "home",
+        "playerName": "Lucas Mouravidze",
+        "playerNr": 7,
+        "likedBy": [],
+        "absoluteTime": 1780164610945,
+        "relativeTime": 2382085,
+        "id": 81254812,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.93E-4
+    },
+    "MatchActor({actor:\"home\",id:80003664})$shortName": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor$ShortName",
+        "name": {
+          "en": "KVARN"
+        }
+      },
+      "auditResolveTimeMs": 2.394455
+    },
+    "MatchEvent({id:81253847})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253847
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Andrija Savic",
+        "playerNr": 23,
+        "likedBy": [],
+        "absoluteTime": 1780163692509,
+        "relativeTime": 2190933,
+        "id": 81253847,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.56E-4
+    },
+    "MatchActor({actor:\"away\",id:80003664})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor",
+        "originalName": {
+          "href": "MatchActor({actor:\"away\",id:80003664})$originalName"
+        },
+        "team": {
+          "href": "Team({id:75935784})"
+        },
+        "name": {
+          "en": "Hammarby Basket White"
+        },
+        "id": 75935784,
+        "match": {
+          "href": "Match({id:80003664})"
+        },
+        "shortName": {
+          "href": "MatchActor({actor:\"away\",id:80003664})$shortName"
+        }
+      },
+      "auditResolveTimeMs": 0.006844
+    },
+    "MatchEvent({id:81253493})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253493
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "5 mål efter varandra för Hammarby Basket! Nu verkar det som om de sätter fart😁",
+          "en": "5 goals in a row for Hammarby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163259706,
+        "relativeTime": 738017,
+        "id": 81253493,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.13E-4
+    },
+    "Team({id:75935784})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Team",
+        "timeline": {
+          "href": "Team({id:75935784})$timeline"
+        },
+        "matchesCalendarUrl": {
+          "href": "Team({id:75935784})$matchesCalendarUrl"
+        },
+        "registrator": {
+          "href": "Team({id:75935784})$registrator"
+        },
+        "matchesExcelUrl": {
+          "href": "Team({id:75935784})$matchesExcelUrl"
+        },
+        "leaderNames": {
+          "href": "Team({id:75935784})$leaderNames"
+        },
+        "awards": {
+          "href": "Team({id:75935784})$awards"
+        },
+        "statistics": {
+          "href": "Team({id:75935784})$statistics"
+        },
+        "shirt": {
+          "href": "Team({id:75935784})$shirt"
+        },
+        "extraMatches": {
+          "href": "Team({id:75935784})$extraMatches"
+        },
+        "divisions": {
+          "href": "Team({id:75935784})$divisions"
+        },
+        "registrationNumber": {
+          "href": "Team({id:75935784})$registrationNumber"
+        },
+        "club": {
+          "href": "NameClub({id:74092606})"
+        },
+        "accommodation": {
+          "href": "Team({id:75935784})$accommodation"
+        },
+        "timelineForLeader": {
+          "href": "Team({id:75935784})$timelineForLeader"
+        },
+        "name": {
+          "__typename": "Team$TeamName",
+          "fullName": "Hammarby Basket B2011O White",
+          "suffix": "White",
+          "clubName": "Hammarby Basket White",
+          "categoryName": "B2011O White"
+        },
+        "matches": {
+          "href": "Team({id:75935784})$matches"
+        },
+        "id": 75935784,
+        "description": {
+          "href": "Team({id:75935784})$description"
+        },
+        "category": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})"
+        }
+      },
+      "auditResolveTimeMs": 0.007632
+    },
+    "MatchResult({id:80003664})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_result_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchResult",
+        "homeGoals": 55,
+        "awayGoals": 58,
+        "homeState": "loss",
+        "awayState": "win",
+        "periodScores": [
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 13,
+            "awayGoals": 22
+          },
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 12,
+            "awayGoals": 16
+          },
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 18,
+            "awayGoals": 13
+          },
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 12,
+            "awayGoals": 7
+          }
+        ],
+        "presentation": "Result",
+        "homePoints": 0,
+        "awayPoints": 2,
+        "ordinaryPeriodCount": 4,
+        "periodTypes": [
+          "period",
+          "period",
+          "period",
+          "period"
+        ],
+        "pointsPerPeriod": false,
+        "walkover": false,
+        "penalties": false,
+        "winner": "away",
+        "hideGoalResults": false,
+        "live": true,
+        "winByPeriods": false,
+        "id": 80003664,
+        "match": {
+          "href": "Match({id:80003664})"
+        },
+        "finished": true
+      },
+      "auditResolveTimeMs": 0.00624
+    },
+    "MatchEvent({id:81254746})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254746
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Leon Doormann",
+        "playerNr": 45,
+        "likedBy": [],
+        "absoluteTime": 1780164525840,
+        "relativeTime": 2296980,
+        "id": 81254746,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.69E-4
+    },
+    "MatchEvent({id:81254443})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254443
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 34,
+        "value": 2,
+        "side": "away",
+        "playerName": "Ebbe Lagerwall Petrén",
+        "playerNr": 11,
+        "likedBy": [],
+        "absoluteTime": 1780164183654,
+        "relativeTime": 2682078,
+        "id": 81254443,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.31E-4
+    },
+    "MatchEvent({id:81253399})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253399
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💥 Hammarby Basket! 🎉🎉\nMål efter mål för Hammarby Basket😄 Nu bara rasar målen in.",
+          "en": "3 goals in a row for Hammarby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163158935,
+        "relativeTime": 637246,
+        "id": 81253399,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.21E-4
+    },
+    "MatchEvent({id:81255624})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255624
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 43,
+        "awayScore": 53,
+        "value": 2,
+        "side": "away",
+        "playerName": "Oliver Johansson",
+        "playerNr": 1,
+        "likedBy": [
+          "Pär"
+        ],
+        "absoluteTime": 1780165412144,
+        "relativeTime": 2251061,
+        "id": 81255624,
+        "period": 3
+      },
+      "auditResolveTimeMs": 4.11E-4
+    },
+    "MatchEvent({id:81255221})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255221
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchComment",
+        "author": "IS",
+        "side": "home",
+        "profilePictureUrl": "https://ui-avatars.com/api/?name=IS",
+        "comment": "BELIEVE_IN_YOU",
+        "likedBy": [],
+        "absoluteTime": 1780165009901,
+        "relativeTime": 2781041,
+        "id": 81255221,
+        "period": 2
+      },
+      "auditResolveTimeMs": 0.006419
+    },
+    "MatchEvent({id:81256183})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81256183
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 55,
+        "awayScore": 58,
+        "value": 1,
+        "side": "away",
+        "playerName": "Tage Rosén",
+        "playerNr": 23,
+        "likedBy": [],
+        "absoluteTime": 1780166173555,
+        "relativeTime": 3012472,
+        "id": 81256183,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.24E-4
+    },
+    "Team({id:75495747})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Team",
+        "timeline": {
+          "href": "Team({id:75495747})$timeline"
+        },
+        "matchesCalendarUrl": {
+          "href": "Team({id:75495747})$matchesCalendarUrl"
+        },
+        "registrator": {
+          "href": "Team({id:75495747})$registrator"
+        },
+        "matchesExcelUrl": {
+          "href": "Team({id:75495747})$matchesExcelUrl"
+        },
+        "leaderNames": {
+          "href": "Team({id:75495747})$leaderNames"
+        },
+        "awards": {
+          "href": "Team({id:75495747})$awards"
+        },
+        "statistics": {
+          "href": "Team({id:75495747})$statistics"
+        },
+        "shirt": {
+          "href": "Team({id:75495747})$shirt"
+        },
+        "extraMatches": {
+          "href": "Team({id:75495747})$extraMatches"
+        },
+        "divisions": {
+          "href": "Team({id:75495747})$divisions"
+        },
+        "registrationNumber": {
+          "href": "Team({id:75495747})$registrationNumber"
+        },
+        "club": {
+          "href": "NameClub({id:74366603})"
+        },
+        "accommodation": {
+          "href": "Team({id:75495747})$accommodation"
+        },
+        "timelineForLeader": {
+          "href": "Team({id:75495747})$timelineForLeader"
+        },
+        "name": {
+          "__typename": "Team$TeamName",
+          "fullName": "Kvarnby Basket B2011O Yellow",
+          "suffix": "Yellow",
+          "clubName": "Kvarnby Basket Yellow",
+          "categoryName": "B2011O Yellow"
+        },
+        "matches": {
+          "href": "Team({id:75495747})$matches"
+        },
+        "id": 75495747,
+        "description": {
+          "href": "Team({id:75495747})$description"
+        },
+        "category": {
+          "href": "Category({categoryId:69211502,tournamentId:69211459})"
+        }
+      },
+      "auditResolveTimeMs": 0.007546
+    },
+    "MatchEvent({id:81253336})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253336
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 6,
+        "awayScore": 4,
+        "value": 2,
+        "side": "away",
+        "playerName": "Alex Cortez",
+        "playerNr": 15,
+        "likedBy": [],
+        "absoluteTime": 1780163080992,
+        "relativeTime": 559303,
+        "id": 81253336,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.4E-4
+    },
+    "Match({id:80003664})$roundName": {
+      "cachetags": [
+        {
+          "taint": [
+            "match",
+            "match_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Match$RoundName",
+        "name": {
+          "en": "Place 9-12 A"
+        }
+      },
+      "auditResolveTimeMs": 0.97653
+    },
+    "MatchEvent({id:81253255})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253255
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Viggo De Vicente",
+        "playerNr": 38,
+        "likedBy": [],
+        "absoluteTime": 1780162961943,
+        "relativeTime": 440254,
+        "id": 81253255,
+        "period": 0
+      },
+      "auditResolveTimeMs": 3.27E-4
+    },
+    "MatchEvent({id:81254076})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254076
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Hammarby Basket gör sitt 5e mål på raken! Jag känner på mig att Kvarnby Basket sätter nästa nu!",
+          "en": "5 goals in a row for Hammarby Basket😃"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163925347,
+        "relativeTime": 2423771,
+        "id": 81254076,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.49E-4
+    },
+    "MatchEvent({id:81255394})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255394
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 39,
+        "awayScore": 47,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tor Söderblom",
+        "playerNr": 9,
+        "likedBy": [
+          "Pär"
+        ],
+        "absoluteTime": 1780165174305,
+        "relativeTime": 2945445,
+        "id": 81255394,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.37E-4
+    },
+    "EditionDay({id:74092519})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "EditionDay",
+        "categoriesPlaying": {
+          "href": "EditionDay({id:74092519})$categoriesPlaying"
+        },
+        "interestingNationVsNation": {
+          "href": "EditionDay({id:74092519})$interestingNationVsNation"
+        },
+        "finishedState": {
+          "href": "EditionDay({id:74092519})$finishedState"
+        },
+        "interestingFinals": {
+          "href": "EditionDay({id:74092519})$interestingFinals"
+        },
+        "refereeSchedulePublished": false,
+        "todaysWinners": {
+          "href": "EditionDay({id:74092519})$todaysWinners"
+        },
+        "interestingHighScoring": {
+          "href": "EditionDay({id:74092519})$interestingHighScoring"
+        },
+        "interestingGroupFinals": {
+          "href": "EditionDay({id:74092519})$interestingGroupFinals"
+        },
+        "playDay": true,
+        "schedulePublished": true,
+        "finals": {
+          "href": "EditionDay({id:74092519})$finals"
+        },
+        "topScorers": {
+          "href": "EditionDay({id:74092519})$topScorers"
+        },
+        "summary": {
+          "href": "EditionDay({id:74092519})$summary"
+        },
+        "index": 2,
+        "matches": {
+          "href": "EditionDay({id:74092519})$matches"
+        },
+        "id": 74092519,
+        "date": 1780092000000
+      },
+      "auditResolveTimeMs": 0.006469
+    },
+    "MatchEvent({id:81255356})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255356
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 39,
+        "awayScore": 45,
+        "value": 2,
+        "side": "away",
+        "playerName": "Tage Rosén",
+        "playerNr": 23,
+        "likedBy": [
+          "Pär"
+        ],
+        "absoluteTime": 1780165137301,
+        "relativeTime": 2908441,
+        "id": 81255356,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.42E-4
+    },
+    "NameClub({id:74092606})": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub",
+        "interestingFacts": {
+          "href": "NameClub({id:74092606})$interestingFacts"
+        },
+        "sportsRegion": {
+          "href": "NameClub({id:74092606})$sportsRegion"
+        },
+        "matchesCalendarUrl": {
+          "href": "NameClub({id:74092606})$matchesCalendarUrl"
+        },
+        "matchesExcelUrl": {
+          "href": "NameClub({id:74092606})$matchesExcelUrl"
+        },
+        "medalHistory": {
+          "href": "NameClub({id:74092606})$medalHistory"
+        },
+        "registeredTeams": {
+          "href": "NameClub({id:74092606})$registeredTeams"
+        },
+        "shirt": {
+          "href": "NameClub({id:74092606})$shirt"
+        },
+        "nation": {
+          "href": "Nation({id:213,tid:69211459})"
+        },
+        "name": "Hammarby Basket",
+        "id": 74092606,
+        "address": {
+          "href": "NameClub({id:74092606})$address"
+        },
+        "description": {
+          "href": "NameClub({id:74092606})$description"
+        }
+      },
+      "auditResolveTimeMs": 0.008171
+    },
+    "MatchEvent({id:81255089})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255089
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Tor Söderblom",
+        "playerNr": 9,
+        "likedBy": [],
+        "absoluteTime": 1780164884358,
+        "relativeTime": 2655498,
+        "id": 81255089,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.22E-4
+    },
+    "Nation({id:213,tid:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "constant"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Nation",
+        "stats": {
+          "href": "Nation({id:213,tid:69211459})$stats"
+        },
+        "clubs": {
+          "href": "Nation({id:213,tid:69211459})$clubs"
+        },
+        "name": {
+          "nb": "Sverige",
+          "de": "Schweden",
+          "da": "Sverige",
+          "zh": "瑞典",
+          "es": "Suecia",
+          "sv": "Sverige",
+          "en": "Sweden",
+          "fr": "Suède"
+        },
+        "code": "SE",
+        "id": 213
+      },
+      "auditResolveTimeMs": 0.006709
+    },
+    "MatchEvent({id:81253134})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253134
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Ska det bli revansch för Kvarnby Basket i Skanskvarnshallen? De förlorade sin förra match i turneringen. Jag känner på mig att Hammarby Basket sätter nästa nu! 😄",
+          "en": "Kvarnby Basket is in the lead despite the fact that they lost their previous match."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780162851660,
+        "relativeTime": 329971,
+        "id": 81253134,
+        "period": 0
+      },
+      "auditResolveTimeMs": 0.001224
+    },
+    "MatchEvent({id:81253434})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253434
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Hammarby Basket gör sitt 4e mål på raken😄😊 Jag känner på mig att Kvarnby Basket sätter nästa nu!",
+          "en": "4 goals in a row for Hammarby Basket."
+        },
+        "likedBy": [],
+        "absoluteTime": 1780163193572,
+        "relativeTime": 671883,
+        "id": 81253434,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.82E-4
+    },
+    "MatchEvent({id:81253457})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253457
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780163229972,
+        "relativeTime": 708283,
+        "id": 81253457,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.66E-4
+    },
+    "Match({id:80003664})$protests": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "protest"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": [],
+      "auditResolveTimeMs": 0.004853
+    },
+    "MatchEvent({id:81254106})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254106
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 16,
+        "awayScore": 30,
+        "value": 3,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780163953984,
+        "relativeTime": 2452408,
+        "id": 81254106,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.37E-4
+    },
+    "MatchEvent({id:81255217})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255217
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchComment",
+        "author": "IS",
+        "side": "home",
+        "profilePictureUrl": "https://ui-avatars.com/api/?name=IS",
+        "comment": "BELIEVE_IN_YOU",
+        "likedBy": [],
+        "absoluteTime": 1780165005520,
+        "relativeTime": 2776660,
+        "id": 81255217,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.409062
+    },
+    "Match({id:80003664})$nextMatchWinner": {
+      "cachetags": [
+        {
+          "taint": [
+            "match",
+            "match_plan"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "auditResolveTimeMs": 0.004338
+    },
+    "MatchEvent({id:81253767})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253767
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "likedBy": [],
+        "absoluteTime": 1780163599457,
+        "relativeTime": 1077768,
+        "id": 81253767,
+        "period": 0
+      },
+      "auditResolveTimeMs": 5.89E-4
+    },
+    "MatchEvent({id:81254586})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254586
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "likedBy": [],
+        "absoluteTime": 1780164325709,
+        "relativeTime": 2824133,
+        "id": 81254586,
+        "period": 1
+      },
+      "auditResolveTimeMs": 4.01E-4
+    },
+    "MatchEvent({id:81254813})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254813
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Just nu är det Kvarnby Basket som gjort 5e flest mål per match (46 st) av alla lag i Boys 2011 Open. Kommer det bli 9 mål till för Kvarnby Basket? I så fall är det kvitterat 😄"
+        },
+        "likedBy": [],
+        "absoluteTime": 1780164609546,
+        "relativeTime": 2380686,
+        "id": 81254813,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.05E-4
+    },
+    "MatchEvent({id:81255190})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255190
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 38,
+        "awayScore": 43,
+        "value": 3,
+        "side": "home",
+        "playerName": "Antony Tomic",
+        "playerNr": 13,
+        "likedBy": [],
+        "absoluteTime": 1780164961313,
+        "relativeTime": 2732453,
+        "id": 81255190,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.65E-4
+    },
+    "MatchEvent({id:81254060})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254060
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 13,
+        "awayScore": 29,
+        "value": 1,
+        "side": "away",
+        "playerName": "Tage Rosén",
+        "playerNr": 23,
+        "likedBy": [],
+        "absoluteTime": 1780163916337,
+        "relativeTime": 2414761,
+        "id": 81254060,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.54E-4
+    },
+    "MatchEvent({id:81255943})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255943
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 50,
+        "awayScore": 55,
+        "value": 2,
+        "side": "home",
+        "playerName": "Eliott Bordes",
+        "playerNr": 49,
+        "likedBy": [],
+        "absoluteTime": 1780165809925,
+        "relativeTime": 2648842,
+        "id": 81255943,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.29E-4
+    },
+    "MatchActor({actor:\"home\",id:80003664})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor",
+        "originalName": {
+          "href": "MatchActor({actor:\"home\",id:80003664})$originalName"
+        },
+        "team": {
+          "href": "Team({id:75495747})"
+        },
+        "name": {
+          "en": "Kvarnby Basket Yellow"
+        },
+        "id": 75495747,
+        "match": {
+          "href": "Match({id:80003664})"
+        },
+        "shortName": {
+          "href": "MatchActor({actor:\"home\",id:80003664})$shortName"
+        }
+      },
+      "auditResolveTimeMs": 0.010311
+    },
+    "MatchEvent({id:81254045})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254045
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Lucas Mouravidze",
+        "playerNr": 7,
+        "likedBy": [],
+        "absoluteTime": 1780163901925,
+        "relativeTime": 2400349,
+        "id": 81254045,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.42E-4
+    },
+    "MatchEvent({id:81254211})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254211
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 21,
+        "awayScore": 30,
+        "value": 3,
+        "side": "home",
+        "playerName": "Leon Doormann",
+        "playerNr": 45,
+        "likedBy": [],
+        "absoluteTime": 1780164041452,
+        "relativeTime": 2539876,
+        "id": 81254211,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.4E-4
+    },
+    "MatchEvent({id:81255050})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255050
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 35,
+        "awayScore": 41,
+        "value": 3,
+        "side": "home",
+        "playerName": "Antony Tomic",
+        "playerNr": 13,
+        "likedBy": [],
+        "absoluteTime": 1780164828210,
+        "relativeTime": 2599350,
+        "id": 81255050,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.38E-4
+    },
+    "MatchEvent({id:81253657})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253657
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Alex Cortez",
+        "playerNr": 15,
+        "likedBy": [],
+        "absoluteTime": 1780163466062,
+        "relativeTime": 944373,
+        "id": 81253657,
+        "period": 0
+      },
+      "auditResolveTimeMs": 5.45E-4
+    },
+    "MatchEvent({id:81253717})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253717
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 10,
+        "awayScore": 22,
+        "value": 3,
+        "side": "away",
+        "playerName": "Viggo De Vicente",
+        "playerNr": 38,
+        "likedBy": [],
+        "absoluteTime": 1780163550085,
+        "relativeTime": 1028396,
+        "id": 81253717,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.5E-4
+    },
+    "MatchEvent({id:81255220})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255220
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [
+          "personal"
+        ],
+        "foulType": "personal",
+        "side": "home",
+        "playerName": "Kasper Hallberg",
+        "playerNr": 21,
+        "likedBy": [],
+        "absoluteTime": 1780165009794,
+        "relativeTime": 2780934,
+        "id": 81255220,
+        "period": 2
+      },
+      "auditResolveTimeMs": 3.16E-4
+    },
+    "MatchEvent({id:81253770})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81253770
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "isPeriodStart": true,
+        "pointsPerPeriod": false,
+        "homeScore": 13,
+        "awayScore": 22,
+        "winByPeriods": false,
+        "likedBy": [],
+        "absoluteTime": 1780163601576,
+        "relativeTime": 2100000,
+        "id": 81253770,
+        "period": 1
+      },
+      "auditResolveTimeMs": 9.3E-5
+    },
+    "MatchEvent({id:81254155})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81254155
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "playerFouls": [],
+        "foulType": "personal",
+        "side": "away",
+        "playerName": "Jonny Bui",
+        "playerNr": 19,
+        "likedBy": [],
+        "absoluteTime": 1780163992457,
+        "relativeTime": 2490881,
+        "id": 81254155,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.1E-4
+    },
+    "MatchEvent({id:81255201})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255201
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchComment",
+        "author": "Pä",
+        "side": "away",
+        "profilePictureUrl": "https://ui-avatars.com/api/?name=Pä",
+        "comment": "KEEP_LEAD",
+        "likedBy": [],
+        "absoluteTime": 1780164971303,
+        "relativeTime": 2742443,
+        "id": 81255201,
+        "period": 2
+      },
+      "auditResolveTimeMs": 0.015772
+    },
+    "MatchEvent({id:81255413})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81255413
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 41,
+        "awayScore": 49,
+        "value": 2,
+        "side": "away",
+        "playerName": "Oskar Källström",
+        "playerNr": 5,
+        "likedBy": [
+          "Pär"
+        ],
+        "absoluteTime": 1780165197252,
+        "relativeTime": 2968392,
+        "id": 81255413,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.71E-4
+    },
+    "MatchActor({actor:\"away\",id:80003664})$shortName": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            80003664
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor$ShortName",
+        "name": {
+          "en": "HAMMA"
+        }
+      },
+      "auditResolveTimeMs": 2.607546
+    }
+  },
+  "status": 200,
+  "totalTime": 80.154641
+}

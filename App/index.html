@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kvarnby Basket P11 – Cup Statistik</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green-dark:   #0d1f12;
+      --green-card:   #122518;
+      --green-border: #1e3d28;
+      --green-mid:    #1f5c36;
+      --green-accent: #2e8b57;
+      --green-bright: #3cb371;
+      --green-text:   #6fcf97;
+      --red:          #fc8181;
+      --gold:         #f6c90e;
+      --fg:           #e2e8f0;
+      --fg-muted:     #8aaa96;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--green-dark);
+      color: var(--fg);
+      min-height: 100vh;
+    }
+
+    /* ── Password overlay ───────────────────────────────── */
+    #passwordOverlay {
+      position: fixed;
+      inset: 0;
+      background: var(--green-dark);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 24px;
+    }
+    #passwordOverlay .logo-wrap {
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    #passwordOverlay img.club-logo {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
+    }
+    .logo-text {
+      font-size: 2.8rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      color: var(--green-bright);
+      text-transform: uppercase;
+      font-style: italic;
+      line-height: 1;
+      text-shadow: 2px 2px 0 #0a1a0e, -1px -1px 0 #0a1a0e;
+    }
+    .logo-sub {
+      font-size: 0.85rem;
+      letter-spacing: 0.25em;
+      color: var(--fg-muted);
+      margin-top: 4px;
+    }
+    #passwordOverlay h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--fg-muted);
+      margin-bottom: 20px;
+      letter-spacing: 0.05em;
+    }
+    #pwForm {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #pwInput {
+      padding: 12px 16px;
+      background: var(--green-card);
+      border: 1px solid var(--green-border);
+      border-radius: 8px;
+      color: var(--fg);
+      font-size: 1.1rem;
+      letter-spacing: 0.15em;
+      width: 160px;
+      text-align: center;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    #pwInput:focus { border-color: var(--green-accent); }
+    #pwInput.error { border-color: var(--red); animation: shake 0.3s; }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25% { transform: translateX(-6px); }
+      75% { transform: translateX(6px); }
+    }
+    #pwBtn {
+      padding: 12px 24px;
+      background: var(--green-accent);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    #pwBtn:hover { background: var(--green-bright); }
+
+    /* ── Main app ───────────────────────────────────────── */
+    #mainApp { display: none; }
+
+    header {
+      background: linear-gradient(135deg, #0a1a0e, var(--green-card));
+      border-bottom: 2px solid var(--green-accent);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    header img.club-logo {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
+    header .header-text h1 {
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: var(--green-bright);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-style: italic;
+    }
+    header .header-text p {
+      font-size: 0.7rem;
+      color: var(--fg-muted);
+      letter-spacing: 0.2em;
+    }
+
+    .game-tabs {
+      display: flex;
+      gap: 4px;
+      padding: 12px 24px 0;
+      background: var(--green-dark);
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      padding: 6px 14px 8px;
+      border: 1px solid var(--green-border);
+      background: var(--green-card);
+      color: var(--fg-muted);
+      border-radius: 8px 8px 0 0;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 600;
+      transition: all 0.15s;
+      border-bottom: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+    }
+    .tab-title { font-weight: 700; }
+    .tab-date  { font-size: 0.68rem; font-weight: 400; opacity: 0.7; }
+    .tab-btn:hover { background: var(--green-mid); color: var(--fg); }
+    .tab-btn.active {
+      background: var(--green-mid);
+      color: var(--green-text);
+      border-color: var(--green-accent);
+      border-bottom: 2px solid var(--green-mid);
+    }
+
+    .game-content {
+      padding: 0 24px 32px;
+      background: var(--green-mid);
+      border: 1px solid var(--green-border);
+      border-top: none;
+      display: none;
+    }
+    .game-content.active { display: block; }
+
+    /* ── Score banner ───────────────────────────────────── */
+    .score-banner {
+      background: linear-gradient(135deg, #0a1a0e, var(--green-card));
+      margin: 0 -24px 16px;
+      border-bottom: 1px solid var(--green-border);
+    }
+    .match-header-meta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 12px 24px 0;
+      font-size: 0.75rem;
+      color: var(--fg-muted);
+      letter-spacing: 0.04em;
+    }
+    .match-header-meta .meta-date {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--fg);
+    }
+    .match-header-meta .meta-sep { color: var(--green-border); }
+    .match-header-meta .meta-cup {
+      background: var(--green-border);
+      color: var(--green-text);
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .score-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 0 20px;
+    }
+    .team-block { text-align: center; flex: 1; max-width: 280px; }
+    .team-name { font-size: 1rem; font-weight: 700; color: var(--fg); margin-bottom: 4px; }
+    .team-score { font-size: 3.5rem; font-weight: 800; line-height: 1; }
+    .home-score { color: var(--green-text); }
+    .away-score { color: var(--red); }
+    .score-sep { font-size: 2.5rem; font-weight: 300; color: var(--green-border); padding: 0 16px; }
+
+    .periods-row {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      margin-bottom: 16px;
+      font-size: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .period-chip {
+      background: var(--green-card);
+      border: 1px solid var(--green-border);
+      border-radius: 4px;
+      padding: 2px 8px;
+      color: var(--fg-muted);
+    }
+
+    /* ── Teams grid ─────────────────────────────────────── */
+    .teams-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 700px) { .teams-grid { grid-template-columns: 1fr; } }
+
+    .team-panel {
+      background: var(--green-card);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--green-border);
+    }
+    .team-panel-header {
+      padding: 10px 16px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .home-header { background: #0e2c1a; color: var(--green-text); border-bottom: 1px solid var(--green-border); }
+    .away-header { background: #2c0e0e; color: var(--red); border-bottom: 1px solid #5a2d2d; }
+
+    .stats-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+    }
+    .stats-table th {
+      padding: 6px 10px;
+      background: #0a1a0e;
+      color: var(--fg-muted);
+      font-weight: 600;
+      text-align: center;
+      font-size: 0.75rem;
+    }
+    .stats-table th:first-child { text-align: left; }
+    .stats-table td {
+      padding: 7px 10px;
+      border-bottom: 1px solid var(--green-border);
+      text-align: center;
+    }
+    .stats-table td:first-child { text-align: left; font-weight: 500; }
+    .stats-table tr:last-child td { border-bottom: none; }
+    .stats-table tr:hover td { background: #1a3522; }
+    .stats-table .total-row td {
+      background: #0a1a0e;
+      font-weight: 700;
+      color: var(--green-bright);
+      border-top: 2px solid var(--green-border);
+    }
+
+    .pts-cell { font-weight: 700; color: var(--gold); }
+    .one-pt   { color: #90cdf4; }
+    .two-pt   { color: var(--green-text); }
+    .three-pt { color: var(--green-bright); }
+    .foul-cell { color: var(--red); font-weight: 600; }
+
+    .legend {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      font-size: 0.73rem;
+      color: var(--fg-muted);
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      background: var(--green-card);
+      border-radius: 6px;
+      border: 1px solid var(--green-border);
+    }
+    .legend span { display: flex; align-items: center; gap: 4px; }
+
+    .empty-state {
+      text-align: center;
+      padding: 80px 24px;
+      color: var(--green-border);
+    }
+    .empty-state .icon { font-size: 4rem; margin-bottom: 16px; }
+    .empty-state p { font-size: 1rem; }
+  </style>
+</head>
+<body>
+
+<!-- ── Password overlay ──────────────────────────────────── -->
+<div id="passwordOverlay">
+  <div class="logo-wrap">
+    <img class="club-logo" src="logo.png" alt="Kvarnby" onerror="this.style.display='none'">
+    <div class="logo-text">Kvarnby P11</div>
+
+  </div>
+  <h2>Ange lösenord för att fortsätta</h2>
+  <form id="pwForm">
+    <input type="password" id="pwInput" placeholder="••••" autocomplete="off" inputmode="numeric" />
+    <button type="submit" id="pwBtn">Logga in</button>
+  </form>
+</div>
+
+<!-- ── Main app ──────────────────────────────────────────── -->
+<div id="mainApp">
+  <header>
+    <img class="club-logo" src="logo.png" alt="Kvarnby" onerror="this.style.display='none'">
+    <div class="header-text">
+      <h1>Kvarnby Basket</h1>
+      
+    </div>
+  </header>
+
+  <div class="game-tabs" id="gameTabs"></div>
+
+  <div id="gameContents">
+    <div class="empty-state">
+      <div class="icon">🏀</div>
+      <p>Inga matcher hittades</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── Password ───────────────────────────────────────────────────────────────
+  const CORRECT_PW = '1967';
+
+  function unlock() {
+    document.getElementById('passwordOverlay').style.display = 'none';
+    document.getElementById('mainApp').style.display = 'block';
+    sessionStorage.setItem('kvarby_auth', '1');
+  }
+
+  if (sessionStorage.getItem('kvarby_auth') === '1') {
+    unlock();
+  }
+
+  document.getElementById('pwForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const val = document.getElementById('pwInput').value;
+    if (val === CORRECT_PW) {
+      unlock();
+    } else {
+      const inp = document.getElementById('pwInput');
+      inp.classList.add('error');
+      inp.value = '';
+      setTimeout(() => inp.classList.remove('error'), 400);
+    }
+  });
+
+  // ── State ──────────────────────────────────────────────────────────────────
+  const games = [];
+
+  // ── JSON parser ────────────────────────────────────────────────────────────
+  function parseGame(data) {
+    const responses = data.responses || {};
+    let homeTeamName = 'Hemmalag';
+    let awayTeamName = 'Bortalag';
+    let matchDate = null;
+
+    const goals = [];
+    const fouls = [];
+
+    for (const [key, val] of Object.entries(responses)) {
+      const entity = val.entity;
+      if (!entity) continue;
+
+      // Team names
+      if (key.startsWith('MatchActor(') && entity.__typename === 'MatchActor') {
+        const isHome = key.includes('"home"') || key.includes("actor:\"home\"");
+        const isAway = key.includes('"away"') || key.includes("actor:\"away\"");
+        const teamName = entity.name?.sv || entity.name?.en || '';
+        if (isHome && teamName) homeTeamName = teamName;
+        if (isAway && teamName) awayTeamName = teamName;
+      }
+
+      // Match date from MatchFeed
+      if (key.startsWith('MatchFeed(') && entity.__typename === 'MatchFeed') {
+        if (entity.liveStartTime) matchDate = new Date(entity.liveStartTime);
+      }
+
+      // Goals
+      if (key.startsWith('MatchEvent(') && entity.__typename === 'MatchGoal') {
+        goals.push({
+          playerName: entity.playerName?.trim() || 'Okänd',
+          playerNr: entity.playerNr,
+          value: entity.value,
+          side: entity.side,
+          period: entity.period,
+          homeScore: entity.homeScore,
+          awayScore: entity.awayScore,
+          time: entity.absoluteTime || 0,
+        });
+      }
+
+      // Fouls
+      if (key.startsWith('MatchEvent(') && entity.__typename === 'MatchPlayerFoul') {
+        fouls.push({
+          playerName: entity.playerName?.trim() || 'Okänd',
+          playerNr: entity.playerNr,
+          side: entity.side,
+          period: entity.period,
+          time: entity.absoluteTime || 0,
+        });
+      }
+    }
+
+    let finalHome = 0, finalAway = 0;
+    for (const g of goals) {
+      if (g.homeScore > finalHome) finalHome = g.homeScore;
+      if (g.awayScore > finalAway) finalAway = g.awayScore;
+    }
+
+    const periodScores = computePeriodScores(goals);
+    const homeStats = buildPlayerStats(goals.filter(g => g.side === 'home'), fouls.filter(f => f.side === 'home'));
+    const awayStats = buildPlayerStats(goals.filter(g => g.side === 'away'), fouls.filter(f => f.side === 'away'));
+
+    return { homeTeamName, awayTeamName, finalHome, finalAway, periodScores, homeStats, awayStats, matchDate };
+  }
+
+  function computePeriodScores(goals) {
+    const sorted = [...goals].sort((a, b) => a.time - b.time);
+    const periods = {};
+    for (const g of sorted) {
+      const p = g.period ?? 0;
+      if (!periods[p]) periods[p] = { home: 0, away: 0 };
+      if (g.side === 'home') periods[p].home += g.value;
+      else periods[p].away += g.value;
+    }
+    return periods;
+  }
+
+  function buildPlayerStats(goals, foulsArr) {
+    const players = {};
+    for (const g of goals) {
+      const key = g.playerName;
+      if (!players[key]) players[key] = { name: g.playerName, nr: g.playerNr, pt1: 0, pt2: 0, pt3: 0, fouls: 0 };
+      if (g.value === 1) players[key].pt1++;
+      else if (g.value === 2) players[key].pt2++;
+      else if (g.value === 3) players[key].pt3++;
+    }
+    for (const f of foulsArr) {
+      const key = f.playerName;
+      if (!players[key]) players[key] = { name: f.playerName, nr: f.playerNr, pt1: 0, pt2: 0, pt3: 0, fouls: 0 };
+      players[key].fouls++;
+    }
+    return Object.values(players).sort((a, b) => {
+      const pa = a.pt1 + a.pt2 * 2 + a.pt3 * 3;
+      const pb = b.pt1 + b.pt2 * 2 + b.pt3 * 3;
+      return pb - pa;
+    });
+  }
+
+  function formatDate(d) {
+    if (!d) return null;
+    return d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function formatDateShort(d) {
+    if (!d) return null;
+    return d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'short' });
+  }
+
+  // ── Render ─────────────────────────────────────────────────────────────────
+  function render() {
+    const tabsEl = document.getElementById('gameTabs');
+    const contentsEl = document.getElementById('gameContents');
+
+    if (games.length === 0) {
+      tabsEl.innerHTML = '';
+      contentsEl.innerHTML = `<div class="empty-state"><div class="icon">🏀</div><p>Inga matcher hittades</p></div>`;
+      return;
+    }
+
+    const activeTab = tabsEl.querySelector('.tab-btn.active')?.dataset.idx;
+    const parsed = games.map(g => parseGame(g.data));
+
+    tabsEl.innerHTML = parsed.map((p, i) => {
+      const isActive = (activeTab == null && i === 0) || activeTab == i;
+      const dateStr = p.matchDate ? formatDateShort(p.matchDate) : '';
+      return `<button class="tab-btn${isActive ? ' active' : ''}" data-idx="${i}">
+        <span class="tab-title">${esc(games[i].name)}</span>
+        ${dateStr ? `<span class="tab-date">${dateStr}</span>` : ''}
+      </button>`;
+    }).join('');
+
+    contentsEl.innerHTML = parsed.map((p, i) =>
+      renderGame(p, i, (activeTab == null && i === 0) || activeTab == i, games[i].cup || '')
+    ).join('');
+
+    tabsEl.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabsEl.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        contentsEl.querySelectorAll('.game-content').forEach(c => c.classList.remove('active'));
+        btn.classList.add('active');
+        contentsEl.querySelector(`.game-content[data-idx="${btn.dataset.idx}"]`).classList.add('active');
+      });
+    });
+  }
+
+  function renderGame(g, idx, active, cup) {
+    const periodKeys = Object.keys(g.periodScores).sort((a, b) => Number(a) - Number(b));
+    const periodLabels = periodKeys.map(p => {
+      const label = p == 0 ? 'P1' : p == 1 ? 'P2' : p == 2 ? 'P3' : p == 3 ? 'P4' : `FT${p - 3}`;
+      const ps = g.periodScores[p];
+      return `<span class="period-chip">${label}: <b style="color:var(--green-text)">${ps.home}</b>–<b style="color:var(--red)">${ps.away}</b></span>`;
+    }).join('');
+
+    const cupLabel  = cup ? `<span class="meta-cup">${esc(cup)}</span>` : '';
+    const dateLabel = g.matchDate ? `<span class="meta-date">${formatDate(g.matchDate)}</span>` : '';
+
+    const headerMeta = (dateLabel || cupLabel)
+      ? `<div class="match-header-meta">${dateLabel}${dateLabel && cupLabel ? '<span class="meta-sep">·</span>' : ''}${cupLabel}</div>`
+      : '';
+
+    return `
+<div class="game-content${active ? ' active' : ''}" data-idx="${idx}">
+  <div class="score-banner">
+    ${headerMeta}
+    <div class="score-row">
+      <div class="team-block">
+        <div class="team-name">${esc(g.homeTeamName)}</div>
+        <div class="team-score home-score">${g.finalHome}</div>
+      </div>
+      <div class="score-sep">–</div>
+      <div class="team-block">
+        <div class="team-name">${esc(g.awayTeamName)}</div>
+        <div class="team-score away-score">${g.finalAway}</div>
+      </div>
+    </div>
+  </div>
+  ${periodKeys.length ? `<div class="periods-row">${periodLabels}</div>` : ''}
+
+  <div class="legend">
+    <span><span style="color:var(--gold)">PTS</span> Totala poäng</span>
+    <span><span class="one-pt">1PT</span> Frikastat</span>
+    <span><span class="two-pt">2PT</span> Tvåpoängare</span>
+    <span><span class="three-pt">3PT</span> Trespoängare</span>
+    <span><span class="foul-cell">Foul</span> Foul</span>
+  </div>
+
+  <div class="teams-grid">
+    ${renderTeamPanel(g.homeTeamName, g.homeStats, 'home')}
+    ${renderTeamPanel(g.awayTeamName, g.awayStats, 'away')}
+  </div>
+</div>`;
+  }
+
+  function renderTeamPanel(teamName, players, side) {
+    const isHome = side === 'home';
+    const headerClass = isHome ? 'home-header' : 'away-header';
+    const totalPts   = players.reduce((s, p) => s + p.pt1 + p.pt2 * 2 + p.pt3 * 3, 0);
+    const total1     = players.reduce((s, p) => s + p.pt1, 0);
+    const total2     = players.reduce((s, p) => s + p.pt2, 0);
+    const total3     = players.reduce((s, p) => s + p.pt3, 0);
+    const totalFouls = players.reduce((s, p) => s + p.fouls, 0);
+
+    const rows = players.map(p => {
+      const pts = p.pt1 + p.pt2 * 2 + p.pt3 * 3;
+      return `<tr>
+        <td>#${p.nr ?? '?'} ${esc(p.name)}</td>
+        <td class="pts-cell">${pts}</td>
+        <td class="one-pt">${p.pt1 > 0 ? p.pt1 : '–'}</td>
+        <td class="two-pt">${p.pt2 > 0 ? p.pt2 : '–'}</td>
+        <td class="three-pt">${p.pt3 > 0 ? p.pt3 : '–'}</td>
+        <td class="foul-cell">${p.fouls > 0 ? p.fouls : '–'}</td>
+      </tr>`;
+    }).join('');
+
+    return `
+<div class="team-panel">
+  <div class="team-panel-header ${headerClass}">
+    <span>${esc(teamName)}</span>
+    <span>${totalPts} poäng</span>
+  </div>
+  <table class="stats-table">
+    <thead>
+      <tr>
+        <th>Spelare</th>
+        <th>PTS</th>
+        <th class="one-pt">1PT</th>
+        <th class="two-pt">2PT</th>
+        <th class="three-pt">3PT</th>
+        <th class="foul-cell">FOUL</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${rows}
+      <tr class="total-row">
+        <td>LAGTOTAL</td>
+        <td class="pts-cell">${totalPts}</td>
+        <td class="one-pt">${total1 > 0 ? total1 : '–'}</td>
+        <td class="two-pt">${total2 > 0 ? total2 : '–'}</td>
+        <td class="three-pt">${total3 > 0 ? total3 : '–'}</td>
+        <td class="foul-cell">${totalFouls > 0 ? totalFouls : '–'}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`;
+  }
+
+  function esc(str) {
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ── Auto-load from jsons/data.js ───────────────────────────────────────────
+  function autoLoadJSONs() {
+    if (!window.GAME_DATA || !window.GAME_DATA.length) return;
+    for (const g of window.GAME_DATA) {
+      if (!games.find(x => x.name === g.name)) games.push(g);
+    }
+    if (games.length > 0) render();
+  }
+</script>
+<script src="jsons/data.js" onload="autoLoadJSONs()" onerror=""></script>
+</body>
+</html>
