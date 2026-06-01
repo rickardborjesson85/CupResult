@@ -1,0 +1,6874 @@
+{
+  "responses": {
+    "MatchEvent({id:81278583})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278583
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 49,
+        "awayScore": 71,
+        "value": 1,
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 2611869,
+        "absoluteTime": 1780220800130,
+        "likedBy": [],
+        "id": 81278583,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.56E-4
+    },
+    "Team({id:75495740})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Team",
+        "timeline": {
+          "href": "Team({id:75495740})$timeline"
+        },
+        "awards": {
+          "href": "Team({id:75495740})$awards"
+        },
+        "extraMatches": {
+          "href": "Team({id:75495740})$extraMatches"
+        },
+        "divisions": {
+          "href": "Team({id:75495740})$divisions"
+        },
+        "registrationNumber": {
+          "href": "Team({id:75495740})$registrationNumber"
+        },
+        "club": {
+          "href": "NameClub({id:74366603})"
+        },
+        "accommodation": {
+          "href": "Team({id:75495740})$accommodation"
+        },
+        "timelineForLeader": {
+          "href": "Team({id:75495740})$timelineForLeader"
+        },
+        "statistics": {
+          "href": "Team({id:75495740})$statistics"
+        },
+        "shirt": {
+          "href": "Team({id:75495740})$shirt"
+        },
+        "matchesCalendarUrl": {
+          "href": "Team({id:75495740})$matchesCalendarUrl"
+        },
+        "registrator": {
+          "href": "Team({id:75495740})$registrator"
+        },
+        "matchesExcelUrl": {
+          "href": "Team({id:75495740})$matchesExcelUrl"
+        },
+        "leaderNames": {
+          "href": "Team({id:75495740})$leaderNames"
+        },
+        "name": {
+          "__typename": "Team$TeamName",
+          "fullName": "Kvarnby Basket B2011E Green",
+          "suffix": "Green",
+          "clubName": "Kvarnby Basket Green",
+          "categoryName": "B2011E Green"
+        },
+        "matches": {
+          "href": "Team({id:75495740})$matches"
+        },
+        "id": 75495740,
+        "description": {
+          "href": "Team({id:75495740})$description"
+        },
+        "category": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})"
+        }
+      },
+      "auditResolveTimeMs": 0.006138
+    },
+    "MatchEvent({id:81278790})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278790
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 49,
+        "awayScore": 75,
+        "value": 2,
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 2692969,
+        "absoluteTime": 1780220881230,
+        "likedBy": [],
+        "id": 81278790,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.37E-4
+    },
+    "MatchEvent({id:81278854})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278854
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 51,
+        "awayScore": 75,
+        "value": 2,
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 2747864,
+        "absoluteTime": 1780220936125,
+        "likedBy": [],
+        "id": 81278854,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.6E-4
+    },
+    "NameClub({id:74366603})": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub",
+        "nation": {
+          "href": "Nation({id:213,tid:69211459})"
+        },
+        "registeredTeams": {
+          "href": "NameClub({id:74366603})$registeredTeams"
+        },
+        "shirt": {
+          "href": "NameClub({id:74366603})$shirt"
+        },
+        "interestingFacts": {
+          "href": "NameClub({id:74366603})$interestingFacts"
+        },
+        "sportsRegion": {
+          "href": "NameClub({id:74366603})$sportsRegion"
+        },
+        "matchesCalendarUrl": {
+          "href": "NameClub({id:74366603})$matchesCalendarUrl"
+        },
+        "matchesExcelUrl": {
+          "href": "NameClub({id:74366603})$matchesExcelUrl"
+        },
+        "medalHistory": {
+          "href": "NameClub({id:74366603})$medalHistory"
+        },
+        "name": "Kvarnby Basket",
+        "id": 74366603,
+        "address": {
+          "href": "NameClub({id:74366603})$address"
+        },
+        "description": {
+          "href": "NameClub({id:74366603})$description"
+        }
+      },
+      "auditResolveTimeMs": 0.006266
+    },
+    "Team({id:75665333})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Team",
+        "timeline": {
+          "href": "Team({id:75665333})$timeline"
+        },
+        "awards": {
+          "href": "Team({id:75665333})$awards"
+        },
+        "extraMatches": {
+          "href": "Team({id:75665333})$extraMatches"
+        },
+        "divisions": {
+          "href": "Team({id:75665333})$divisions"
+        },
+        "registrationNumber": {
+          "href": "Team({id:75665333})$registrationNumber"
+        },
+        "club": {
+          "href": "NameClub({id:75640147})"
+        },
+        "accommodation": {
+          "href": "Team({id:75665333})$accommodation"
+        },
+        "timelineForLeader": {
+          "href": "Team({id:75665333})$timelineForLeader"
+        },
+        "statistics": {
+          "href": "Team({id:75665333})$statistics"
+        },
+        "shirt": {
+          "href": "Team({id:75665333})$shirt"
+        },
+        "matchesCalendarUrl": {
+          "href": "Team({id:75665333})$matchesCalendarUrl"
+        },
+        "registrator": {
+          "href": "Team({id:75665333})$registrator"
+        },
+        "matchesExcelUrl": {
+          "href": "Team({id:75665333})$matchesExcelUrl"
+        },
+        "leaderNames": {
+          "href": "Team({id:75665333})$leaderNames"
+        },
+        "name": {
+          "__typename": "Team$TeamName",
+          "fullName": "Gimle B2011E Rød",
+          "suffix": "Rød",
+          "clubName": "Gimle Rød",
+          "categoryName": "B2011E Rød"
+        },
+        "matches": {
+          "href": "Team({id:75665333})$matches"
+        },
+        "id": 75665333,
+        "description": {
+          "href": "Team({id:75665333})$description"
+        },
+        "category": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})"
+        }
+      },
+      "auditResolveTimeMs": 0.005696
+    },
+    "MatchEvent({id:81274222})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274222
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Kvarnby Basket gör sitt andra mål på raken! Ge inte upp Gimle, ni sätter nästa istället!",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 443945,
+        "absoluteTime": 1780217817209,
+        "likedBy": [],
+        "id": 81274222,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.43E-4
+    },
+    "MatchEvent({id:81275621})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275621
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 14,
+        "awayScore": 19,
+        "value": 2,
+        "playerNr": 35,
+        "side": "home",
+        "playerName": "Lauritz Giusti",
+        "relativeTime": 2327203,
+        "absoluteTime": 1780218577294,
+        "likedBy": [],
+        "id": 81275621,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.39E-4
+    },
+    "MatchEvent({id:81277094})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277094
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💫 Gimle! 🎉🏆\nMål efter mål för Gimle. Nu bara rasar målen in.",
+          "en": "3 goals in a row for Gimle😛"
+        },
+        "relativeTime": 2281466,
+        "absoluteTime": 1780219610707,
+        "likedBy": [],
+        "id": 81277094,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.28E-4
+    },
+    "MatchEvent({id:81274539})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274539
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 12,
+        "awayScore": 12,
+        "value": 3,
+        "playerNr": 32,
+        "side": "home",
+        "playerName": "Jonas Risa",
+        "relativeTime": 717561,
+        "absoluteTime": 1780218090825,
+        "likedBy": [],
+        "id": 81274539,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.32E-4
+    },
+    "MatchEvent({id:81276595})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276595
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 31,
+        "awayScore": 44,
+        "value": 3,
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 2987750,
+        "absoluteTime": 1780219237841,
+        "likedBy": [],
+        "id": 81276595,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.27E-4
+    },
+    "MatchEvent({id:81276282})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276282
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 21,
+        "awayScore": 33,
+        "value": 1,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2772918,
+        "absoluteTime": 1780219023009,
+        "likedBy": [],
+        "id": 81276282,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.71E-4
+    },
+    "MatchEvent({id:81277169})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277169
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 35,
+        "awayScore": 49,
+        "value": 3,
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 2333920,
+        "absoluteTime": 1780219663161,
+        "likedBy": [
+          "Ivana Savic"
+        ],
+        "id": 81277169,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.31E-4
+    },
+    "MatchEvent({id:81278255})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278255
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Mål efter mål för Kvarnby Basket. Nu bara rasar målen in.",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2407686,
+        "absoluteTime": 1780220595947,
+        "likedBy": [],
+        "id": 81278255,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.75E-4
+    },
+    "MatchEvent({id:81274120})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274120
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💥💥 Kvarnby Basket! 🎈💥\nMål efter mål för Kvarnby Basket😃 Nu bara rasar målen in.",
+          "en": "4 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 353253,
+        "absoluteTime": 1780217726517,
+        "likedBy": [],
+        "id": 81274120,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.28E-4
+    },
+    "MatchEvent({id:81276418})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276418
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 35,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2851707,
+        "absoluteTime": 1780219101798,
+        "likedBy": [],
+        "id": 81276418,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.59E-4
+    },
+    "MatchEvent({id:81275535})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275535
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 12,
+        "awayScore": 19,
+        "value": 3,
+        "playerNr": 70,
+        "side": "away",
+        "playerName": "Sebastian Nilsson",
+        "relativeTime": 2249788,
+        "absoluteTime": 1780218499879,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81275535,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.99E-4
+    },
+    "MatchEvent({id:81276267})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276267
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 21,
+        "awayScore": 32,
+        "value": 1,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2760965,
+        "absoluteTime": 1780219011056,
+        "likedBy": [],
+        "id": 81276267,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.97E-4
+    },
+    "MatchActor({actor:\"home\",id:79999638})$shortName": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor$ShortName",
+        "name": {
+          "en": "GIMLE"
+        }
+      },
+      "auditResolveTimeMs": 2.425131
+    },
+    "MatchEvent({id:81274407})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274407
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 7,
+        "awayScore": 10,
+        "value": 1,
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 619464,
+        "absoluteTime": 1780217992728,
+        "likedBy": [],
+        "id": 81274407,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.55E-4
+    },
+    "MatchEvent({id:81274900})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274900
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal"
+        ],
+        "playerNr": 96,
+        "side": "home",
+        "playerName": "Nicolai Pedersen",
+        "relativeTime": 932601,
+        "absoluteTime": 1780218305865,
+        "likedBy": [],
+        "id": 81274900,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.2E-4
+    },
+    "MatchEvent({id:81276474})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276474
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 37,
+        "value": 2,
+        "playerNr": 11,
+        "side": "away",
+        "playerName": "Yeming Mei",
+        "relativeTime": 2893773,
+        "absoluteTime": 1780219143864,
+        "likedBy": [],
+        "id": 81276474,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.3E-4
+    },
+    "MatchEvent({id:81278639})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278639
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Kvarnby Basket gör sitt andra mål på raken😛😄😄 Nu tycker jag det är dags för Gimle att reducera!",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2674395,
+        "absoluteTime": 1780220862656,
+        "likedBy": [],
+        "id": 81278639,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.68E-4
+    },
+    "MatchEvent({id:81276870})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276870
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "relativeTime": 3175027,
+        "absoluteTime": 1780219425118,
+        "likedBy": [],
+        "id": 81276870,
+        "period": 1
+      },
+      "auditResolveTimeMs": 3.39E-4
+    },
+    "MatchFeed({id:79999638})$statistics": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_matchId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchFeed$EventStatistics",
+        "home": {
+          "__typename": "EventStatistics$TeamStats",
+          "shots": 53,
+          "goals": 53,
+          "lost": 75,
+          "saves": 0,
+          "redCards": 0,
+          "yellowCards": 0,
+          "greenCards": 0,
+          "penaltiesMinutes": 0,
+          "penaltiesCount": 0,
+          "threePointers": 5,
+          "twoPointers": 17,
+          "onePointers": 4,
+          "lostThreePointers": 5,
+          "lostTwoPointers": 26,
+          "lostOnePointers": 8,
+          "timeouts": 0,
+          "fouls_technical": 0,
+          "fouls_personal": 11,
+          "fouls_unsportsmanlike": 0,
+          "fouls_disqualifying": 0,
+          "rebounds": 0,
+          "blockedShots": 0,
+          "steals": 0,
+          "matchesWon": 0,
+          "matchesTied": 0,
+          "matchesLost": 0,
+          "formGuide": [],
+          "goalkeepers": [],
+          "players": [],
+          "cards": []
+        },
+        "away": {
+          "__typename": "EventStatistics$TeamStats",
+          "shots": 75,
+          "goals": 75,
+          "lost": 53,
+          "saves": 0,
+          "redCards": 0,
+          "yellowCards": 0,
+          "greenCards": 0,
+          "penaltiesMinutes": 0,
+          "penaltiesCount": 0,
+          "threePointers": 5,
+          "twoPointers": 26,
+          "onePointers": 8,
+          "lostThreePointers": 5,
+          "lostTwoPointers": 17,
+          "lostOnePointers": 4,
+          "timeouts": 1,
+          "fouls_technical": 0,
+          "fouls_personal": 8,
+          "fouls_unsportsmanlike": 0,
+          "fouls_disqualifying": 0,
+          "rebounds": 0,
+          "blockedShots": 0,
+          "steals": 0,
+          "matchesWon": 0,
+          "matchesTied": 0,
+          "matchesLost": 0,
+          "formGuide": [],
+          "goalkeepers": [],
+          "players": [],
+          "cards": []
+        },
+        "periods": [
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 0,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 12,
+              "goals": 12,
+              "lost": 16,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 1,
+              "twoPointers": 4,
+              "onePointers": 1,
+              "lostThreePointers": 0,
+              "lostTwoPointers": 6,
+              "lostOnePointers": 4,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 4,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80913096,
+                  "name": "Marius Sommersten-Storetvedt",
+                  "shirtNr": 36,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80913037,
+                  "name": "Simen Bringsvor Nilsen",
+                  "shirtNr": 11,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912814,
+                  "name": "Christian Bakke de Mello",
+                  "shirtNr": 2,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912689,
+                  "name": "Marius Arnesen Nøkling",
+                  "shirtNr": 30,
+                  "goals": 1,
+                  "assists": 0,
+                  "shots": 1,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912988,
+                  "name": "Lauritz Giusti",
+                  "shirtNr": 35,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80679745,
+                  "name": "Nicolai Pedersen",
+                  "shirtNr": 96,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912635,
+                  "name": "Jakob Melve",
+                  "shirtNr": 0,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912901,
+                  "name": "Jonas Risa",
+                  "shirtNr": 32,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 16,
+              "goals": 16,
+              "lost": 12,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 0,
+              "twoPointers": 6,
+              "onePointers": 4,
+              "lostThreePointers": 1,
+              "lostTwoPointers": 4,
+              "lostOnePointers": 1,
+              "timeouts": 1,
+              "fouls_technical": 0,
+              "fouls_personal": 1,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297471,
+                  "name": "Sam Limberg",
+                  "shirtNr": 93,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 2,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297474,
+                  "name": "Theodor Nankler",
+                  "shirtNr": 2,
+                  "goals": 6,
+                  "assists": 0,
+                  "shots": 6,
+                  "threePointers": 0,
+                  "twoPointers": 3,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297512,
+                  "name": "Gustav Setterberg",
+                  "shirtNr": 54,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 2,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297477,
+                  "name": "Elvin Grimfeldt",
+                  "shirtNr": 13,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80619426,
+                  "name": "Aravind Sreenivas",
+                  "shirtNr": 31,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          },
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 1,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 21,
+              "goals": 21,
+              "lost": 28,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 2,
+              "twoPointers": 7,
+              "onePointers": 1,
+              "lostThreePointers": 2,
+              "lostTwoPointers": 10,
+              "lostOnePointers": 2,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 3,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912988,
+                  "name": "Lauritz Giusti",
+                  "shirtNr": 35,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80679745,
+                  "name": "Nicolai Pedersen",
+                  "shirtNr": 96,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912689,
+                  "name": "Marius Arnesen Nøkling",
+                  "shirtNr": 30,
+                  "goals": 6,
+                  "assists": 0,
+                  "shots": 6,
+                  "threePointers": 0,
+                  "twoPointers": 3,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80913096,
+                  "name": "Marius Sommersten-Storetvedt",
+                  "shirtNr": 36,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912814,
+                  "name": "Christian Bakke de Mello",
+                  "shirtNr": 2,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912635,
+                  "name": "Jakob Melve",
+                  "shirtNr": 0,
+                  "goals": 10,
+                  "assists": 0,
+                  "shots": 10,
+                  "threePointers": 2,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 28,
+              "goals": 28,
+              "lost": 21,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 2,
+              "twoPointers": 10,
+              "onePointers": 2,
+              "lostThreePointers": 2,
+              "lostTwoPointers": 7,
+              "lostOnePointers": 1,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 3,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297515,
+                  "name": "Sebastian Nilsson",
+                  "shirtNr": 70,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297512,
+                  "name": "Gustav Setterberg",
+                  "shirtNr": 54,
+                  "goals": 6,
+                  "assists": 0,
+                  "shots": 6,
+                  "threePointers": 0,
+                  "twoPointers": 3,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297471,
+                  "name": "Sam Limberg",
+                  "shirtNr": 93,
+                  "goals": 0,
+                  "assists": 0,
+                  "shots": 0,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80619426,
+                  "name": "Aravind Sreenivas",
+                  "shirtNr": 31,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297474,
+                  "name": "Theodor Nankler",
+                  "shirtNr": 2,
+                  "goals": 8,
+                  "assists": 0,
+                  "shots": 8,
+                  "threePointers": 0,
+                  "twoPointers": 3,
+                  "onePointers": 2,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80501146,
+                  "name": "Yeming Mei",
+                  "shirtNr": 11,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297477,
+                  "name": "Elvin Grimfeldt",
+                  "shirtNr": 13,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          },
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 2,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 8,
+              "goals": 8,
+              "lost": 18,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 1,
+              "twoPointers": 2,
+              "onePointers": 1,
+              "lostThreePointers": 2,
+              "lostTwoPointers": 6,
+              "lostOnePointers": 0,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 0,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80679745,
+                  "name": "Nicolai Pedersen",
+                  "shirtNr": 96,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912689,
+                  "name": "Marius Arnesen Nøkling",
+                  "shirtNr": 30,
+                  "goals": 1,
+                  "assists": 0,
+                  "shots": 1,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80913096,
+                  "name": "Marius Sommersten-Storetvedt",
+                  "shirtNr": 36,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912814,
+                  "name": "Christian Bakke de Mello",
+                  "shirtNr": 2,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 18,
+              "goals": 18,
+              "lost": 8,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 2,
+              "twoPointers": 6,
+              "onePointers": 0,
+              "lostThreePointers": 1,
+              "lostTwoPointers": 2,
+              "lostOnePointers": 1,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 3,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297471,
+                  "name": "Sam Limberg",
+                  "shirtNr": 93,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297477,
+                  "name": "Elvin Grimfeldt",
+                  "shirtNr": 13,
+                  "goals": 6,
+                  "assists": 0,
+                  "shots": 6,
+                  "threePointers": 2,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297474,
+                  "name": "Theodor Nankler",
+                  "shirtNr": 2,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297515,
+                  "name": "Sebastian Nilsson",
+                  "shirtNr": 70,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297512,
+                  "name": "Gustav Setterberg",
+                  "shirtNr": 54,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          },
+          {
+            "__typename": "EventStatistics$PeriodStat",
+            "period": 3,
+            "home": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 12,
+              "goals": 12,
+              "lost": 13,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 1,
+              "twoPointers": 4,
+              "onePointers": 1,
+              "lostThreePointers": 1,
+              "lostTwoPointers": 4,
+              "lostOnePointers": 2,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 4,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912988,
+                  "name": "Lauritz Giusti",
+                  "shirtNr": 35,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912901,
+                  "name": "Jonas Risa",
+                  "shirtNr": 32,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 1,
+                  "twoPointers": 0,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80679745,
+                  "name": "Nicolai Pedersen",
+                  "shirtNr": 96,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912635,
+                  "name": "Jakob Melve",
+                  "shirtNr": 0,
+                  "goals": 3,
+                  "assists": 0,
+                  "shots": 3,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 1,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 80912689,
+                  "name": "Marius Arnesen Nøkling",
+                  "shirtNr": 30,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal",
+                    "personal"
+                  ],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            },
+            "away": {
+              "__typename": "EventStatistics$TeamStats",
+              "shots": 13,
+              "goals": 13,
+              "lost": 12,
+              "saves": 0,
+              "redCards": 0,
+              "yellowCards": 0,
+              "greenCards": 0,
+              "penaltiesMinutes": 0,
+              "penaltiesCount": 0,
+              "threePointers": 1,
+              "twoPointers": 4,
+              "onePointers": 2,
+              "lostThreePointers": 1,
+              "lostTwoPointers": 4,
+              "lostOnePointers": 1,
+              "timeouts": 0,
+              "fouls_technical": 0,
+              "fouls_personal": 1,
+              "fouls_unsportsmanlike": 0,
+              "fouls_disqualifying": 0,
+              "rebounds": 0,
+              "blockedShots": 0,
+              "steals": 0,
+              "matchesWon": 0,
+              "matchesTied": 0,
+              "matchesLost": 0,
+              "formGuide": [],
+              "goalkeepers": [],
+              "players": [
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297471,
+                  "name": "Sam Limberg",
+                  "shirtNr": 93,
+                  "goals": 4,
+                  "assists": 0,
+                  "shots": 4,
+                  "threePointers": 0,
+                  "twoPointers": 2,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [
+                    "personal"
+                  ],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297474,
+                  "name": "Theodor Nankler",
+                  "shirtNr": 2,
+                  "goals": 5,
+                  "assists": 0,
+                  "shots": 5,
+                  "threePointers": 1,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297512,
+                  "name": "Gustav Setterberg",
+                  "shirtNr": 54,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 0,
+                  "onePointers": 2,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                },
+                {
+                  "__typename": "EventStatistics$PlayerStat",
+                  "playerId": 78297477,
+                  "name": "Elvin Grimfeldt",
+                  "shirtNr": 13,
+                  "goals": 2,
+                  "assists": 0,
+                  "shots": 2,
+                  "threePointers": 0,
+                  "twoPointers": 1,
+                  "onePointers": 0,
+                  "yellowCards": 0,
+                  "redCards": 0,
+                  "rebounds": 0,
+                  "blockedShots": 0,
+                  "steals": 0,
+                  "matches": 1,
+                  "matchesInStartingLineup": 0,
+                  "matchesExpelled": 0,
+                  "fouls": [],
+                  "expelled": false
+                }
+              ],
+              "cards": []
+            }
+          }
+        ]
+      },
+      "auditResolveTimeMs": 7.7E-4
+    },
+    "Team({id:75495740})$shirt": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub$Shirt",
+        "type": "unknown",
+        "color1": "#26c100",
+        "color2": "#ffff00",
+        "color3": "#ffff00",
+        "anti": "#ffffff"
+      },
+      "auditResolveTimeMs": 2.02E-4
+    },
+    "MatchEvent({id:81276324})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276324
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 33,
+        "value": 2,
+        "playerNr": 2,
+        "side": "home",
+        "playerName": "Christian Bakke de Mello",
+        "relativeTime": 2787830,
+        "absoluteTime": 1780219037921,
+        "likedBy": [],
+        "id": 81276324,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.51E-4
+    },
+    "MatchEvent({id:81275777})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275777
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 15,
+        "awayScore": 21,
+        "value": 1,
+        "playerNr": 35,
+        "side": "home",
+        "playerName": "Lauritz Giusti",
+        "relativeTime": 2386755,
+        "absoluteTime": 1780218636846,
+        "likedBy": [],
+        "id": 81275777,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.4E-4
+    },
+    "MatchEvent({id:81277437})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277437
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 36,
+        "awayScore": 56,
+        "value": 3,
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 2576629,
+        "absoluteTime": 1780219905870,
+        "likedBy": [],
+        "id": 81277437,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.47E-4
+    },
+    "MatchEvent({id:81274095})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274095
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎊🎊 Jubel i Gubbängshallen! 🎊\nJag noterar 3 mål efter varandra för Kvarnby Basket. Gör de nästa mål också? Nu är det 2 mål till kvittering. Kämpa på Gimle så ska ni se att det går att kvittera (och kanske vinna!)",
+          "en": "3 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 340279,
+        "absoluteTime": 1780217713543,
+        "likedBy": [],
+        "id": 81274095,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.5E-4
+    },
+    "MatchEvent({id:81274592})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274592
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchTimeout",
+        "side": "away",
+        "relativeTime": 749457,
+        "absoluteTime": 1780218122721,
+        "likedBy": [],
+        "id": 81274592,
+        "period": 0
+      },
+      "auditResolveTimeMs": 3.03E-4
+    },
+    "MatchEvent({id:81278319})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278319
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal",
+          "personal",
+          "personal"
+        ],
+        "playerNr": 96,
+        "side": "home",
+        "playerName": "Nicolai Pedersen",
+        "relativeTime": 2497144,
+        "absoluteTime": 1780220685405,
+        "likedBy": [],
+        "id": 81278319,
+        "period": 3
+      },
+      "auditResolveTimeMs": 3.4E-4
+    },
+    "MatchEvent({id:81274208})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274208
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 4,
+        "awayScore": 7,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 440420,
+        "absoluteTime": 1780217813684,
+        "likedBy": [],
+        "id": 81274208,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.6E-4
+    },
+    "MatchEvent({id:81273989})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81273989
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💫 Härlig fart i Gubbängshallen! 🎈💫💫\nJag uppdaterar bland mina tabeller för Kvarnby Basket. Nu har de 187 gjorda och 204 insläppta mål.",
+          "en": "After that last goal, Kvarnby Basket have a total of 187 made and 204 lost goals."
+        },
+        "relativeTime": 241778,
+        "absoluteTime": 1780217615042,
+        "likedBy": [],
+        "id": 81273989,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.3E-4
+    },
+    "MatchEvent({id:81276029})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276029
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 19,
+        "awayScore": 29,
+        "value": 2,
+        "playerNr": 31,
+        "side": "away",
+        "playerName": "Aravind Sreenivas",
+        "relativeTime": 2569294,
+        "absoluteTime": 1780218819385,
+        "likedBy": [],
+        "id": 81276029,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.0E-4
+    },
+    "MatchEvent({id:81276006})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276006
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 19,
+        "awayScore": 27,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2546467,
+        "absoluteTime": 1780218796558,
+        "likedBy": [],
+        "id": 81276006,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.41E-4
+    },
+    "MatchEvent({id:81278209})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278209
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 46,
+        "awayScore": 67,
+        "value": 3,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2358820,
+        "absoluteTime": 1780220547081,
+        "likedBy": [],
+        "id": 81278209,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.41E-4
+    },
+    "Nation({id:171,tid:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "constant"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Nation",
+        "stats": {
+          "href": "Nation({id:171,tid:69211459})$stats"
+        },
+        "clubs": {
+          "href": "Nation({id:171,tid:69211459})$clubs"
+        },
+        "name": {
+          "nb": "Norge",
+          "de": "Norwegen",
+          "da": "Norge",
+          "zh": "挪威",
+          "es": "Noruega",
+          "sv": "Norge",
+          "en": "Norway",
+          "fr": "Norvège"
+        },
+        "code": "NO",
+        "id": 171
+      },
+      "auditResolveTimeMs": 0.005889
+    },
+    "Division({id:79999636})": {
+      "cachetags": [
+        {
+          "taint": [
+            "division",
+            "division_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999636
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Conference",
+        "pseudoTeams": {
+          "href": "Division({id:79999636})$pseudoTeams"
+        },
+        "extraMatches": {
+          "href": "Division({id:79999636})$extraMatches"
+        },
+        "size": 2,
+        "table": {
+          "href": "Division({id:79999636})$table"
+        },
+        "rounds": {
+          "href": "Division({id:79999636})$rounds"
+        },
+        "name": {
+          "en": "7th place"
+        },
+        "matches": {
+          "href": "Division({id:79999636})$matches"
+        },
+        "id": 79999636,
+        "category": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})"
+        },
+        "stage": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})"
+        },
+        "finished": {
+          "href": "Division({id:79999636})$finished"
+        }
+      },
+      "auditResolveTimeMs": 0.001453
+    },
+    "MatchEvent({id:81273905})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81273905
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 2,
+        "awayScore": 0,
+        "value": 2,
+        "playerNr": 36,
+        "side": "home",
+        "playerName": "Marius Sommersten-Storetvedt",
+        "relativeTime": 173755,
+        "absoluteTime": 1780217547019,
+        "likedBy": [],
+        "id": 81273905,
+        "period": 0
+      },
+      "auditResolveTimeMs": 8.17E-4
+    },
+    "MatchEvent({id:81274348})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274348
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 7,
+        "awayScore": 9,
+        "value": 2,
+        "playerNr": 35,
+        "side": "home",
+        "playerName": "Lauritz Giusti",
+        "relativeTime": 562421,
+        "absoluteTime": 1780217935685,
+        "likedBy": [],
+        "id": 81274348,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.28E-4
+    },
+    "MatchEvent({id:81273943})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81273943
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 36,
+        "side": "home",
+        "playerName": "Marius Sommersten-Storetvedt",
+        "relativeTime": 207857,
+        "absoluteTime": 1780217581121,
+        "likedBy": [],
+        "id": 81273943,
+        "period": 0
+      },
+      "auditResolveTimeMs": 6.33E-4
+    },
+    "MatchEvent({id:81278791})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278791
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Jag noterar 3 mål efter varandra för Kvarnby Basket😁 Gör de nästa mål också? Kämpa på Gimle, ni sätter nästa!",
+          "en": "3 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2692750,
+        "absoluteTime": 1780220881011,
+        "likedBy": [],
+        "id": 81278791,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.34E-4
+    },
+    "MatchEvent({id:81276566})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276566
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 28,
+        "awayScore": 42,
+        "value": 3,
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 2961954,
+        "absoluteTime": 1780219212045,
+        "likedBy": [],
+        "id": 81276566,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.15E-4
+    },
+    "MatchEvent({id:81278976})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278976
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal"
+        ],
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 2863423,
+        "absoluteTime": 1780221051684,
+        "likedBy": [],
+        "id": 81278976,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.32E-4
+    },
+    "MatchEvent({id:81277403})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277403
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🏆 Mål måål måååål! 🎈\n2 mål efter varandra för Kvarnby Basket😀😃 Nu verkar det som om de sätter fart. Kämpa på Gimle, ni sätter nästa!",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2546902,
+        "absoluteTime": 1780219876143,
+        "likedBy": [],
+        "id": 81277403,
+        "period": 2
+      },
+      "auditResolveTimeMs": 5.59E-4
+    },
+    "MatchEvent({id:81278254})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278254
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 46,
+        "awayScore": 69,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2408605,
+        "absoluteTime": 1780220596866,
+        "likedBy": [],
+        "id": 81278254,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.29E-4
+    },
+    "Match({id:79999638})$video": {
+      "cachetags": [
+        {
+          "taint": [
+            "web",
+            "video"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "href": "Video({id:80654552})"
+      },
+      "auditResolveTimeMs": 4.09E-4
+    },
+    "MatchEvent({id:81275673})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275673
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal"
+        ],
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 2365705,
+        "absoluteTime": 1780218615796,
+        "likedBy": [],
+        "id": 81275673,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.36E-4
+    },
+    "MatchEvent({id:81276220})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276220
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 21,
+        "awayScore": 31,
+        "value": 2,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 2722665,
+        "absoluteTime": 1780218972756,
+        "likedBy": [],
+        "id": 81276220,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.75E-4
+    },
+    "MatchEvent({id:81277921})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277921
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "homeScore": 41,
+        "awayScore": 62,
+        "winByPeriods": false,
+        "pointsPerPeriod": false,
+        "isPeriodStart": true,
+        "relativeTime": 2100000,
+        "absoluteTime": 1780220288261,
+        "likedBy": [],
+        "id": 81277921,
+        "period": 3
+      },
+      "auditResolveTimeMs": 9.3E-5
+    },
+    "MatchEvent({id:81277335})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277335
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchComment",
+        "profilePictureUrl": "https://ui-avatars.com/api/?name=IS",
+        "side": "away",
+        "author": "IS",
+        "comment": "NICE_PLAY",
+        "relativeTime": 2480107,
+        "absoluteTime": 1780219809348,
+        "likedBy": [],
+        "id": 81277335,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.736494
+    },
+    "MatchEvent({id:81276475})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276475
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Mål efter mål för Kvarnby Basket. Nu bara rasar målen in.",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2893318,
+        "absoluteTime": 1780219143409,
+        "likedBy": [],
+        "id": 81276475,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.66E-4
+    },
+    "MatchEvent({id:81279012})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81279012
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "2 mål efter varandra för Gimle! Nu verkar det som om de sätter fart.",
+          "en": "2 goals in a row for Gimle."
+        },
+        "relativeTime": 2895947,
+        "absoluteTime": 1780221084208,
+        "likedBy": [],
+        "id": 81279012,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.46E-4
+    },
+    "MatchEvent({id:81276668})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276668
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 3039693,
+        "absoluteTime": 1780219289784,
+        "likedBy": [],
+        "id": 81276668,
+        "period": 1
+      },
+      "auditResolveTimeMs": 3.87E-4
+    },
+    "MatchEvent({id:81276879})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276879
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "homeScore": 33,
+        "awayScore": 44,
+        "winByPeriods": false,
+        "pointsPerPeriod": false,
+        "isPeriodStart": true,
+        "relativeTime": 2100000,
+        "absoluteTime": 1780219429241,
+        "likedBy": [],
+        "id": 81276879,
+        "period": 2
+      },
+      "auditResolveTimeMs": 8.1E-5
+    },
+    "MatchEvent({id:81275840})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275840
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal",
+          "personal"
+        ],
+        "playerNr": 96,
+        "side": "home",
+        "playerName": "Nicolai Pedersen",
+        "relativeTime": 2427339,
+        "absoluteTime": 1780218677430,
+        "likedBy": [],
+        "id": 81275840,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.33E-4
+    },
+    "MatchEvent({id:81276248})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276248
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal"
+        ],
+        "playerNr": 36,
+        "side": "home",
+        "playerName": "Marius Sommersten-Storetvedt",
+        "relativeTime": 2742607,
+        "absoluteTime": 1780218992698,
+        "likedBy": [],
+        "id": 81276248,
+        "period": 1
+      },
+      "auditResolveTimeMs": 4.47E-4
+    },
+    "MatchEvent({id:81274464})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274464
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 9,
+        "awayScore": 10,
+        "value": 2,
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 665373,
+        "absoluteTime": 1780218038637,
+        "likedBy": [],
+        "id": 81274464,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.28E-4
+    },
+    "MatchEvent({id:81278927})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278927
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 32,
+        "side": "home",
+        "playerName": "Jonas Risa",
+        "relativeTime": 2824608,
+        "absoluteTime": 1780221012869,
+        "likedBy": [],
+        "id": 81278927,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.72E-4
+    },
+    "MatchFeed({id:79999638})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_matchId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchFeed",
+        "liveStartTime": 1780217373264,
+        "zonedLiveStartTime": 1780217373264,
+        "availableComments": {
+          "__typename": "MatchFeed$MatchFeedAvailableComments",
+          "under": [
+            "COME_ON",
+            "BELIEVE_IN_YOU",
+            "TRUST_YOU_FIX"
+          ],
+          "leader": [
+            "PLAY_GOOD",
+            "KEEP_LEAD",
+            "NICE_PLAY"
+          ],
+          "before": [
+            "GOOD_LUCK",
+            "LOOKING_FORWARD"
+          ],
+          "finished": [
+            "THANK_YOU",
+            "NICE_GAME",
+            "THANKS_REFEREE"
+          ]
+        },
+        "matchId": 79999638,
+        "timeZone": "Europe/Stockholm",
+        "statistics": {
+          "href": "MatchFeed({id:79999638})$statistics"
+        },
+        "events": [
+          {
+            "href": "MatchEvent({id:81273737})"
+          },
+          {
+            "href": "MatchEvent({id:81273906})"
+          },
+          {
+            "href": "MatchEvent({id:81273905})"
+          },
+          {
+            "href": "MatchEvent({id:81273943})"
+          },
+          {
+            "href": "MatchEvent({id:81273989})"
+          },
+          {
+            "href": "MatchEvent({id:81273986})"
+          },
+          {
+            "href": "MatchEvent({id:81274018})"
+          },
+          {
+            "href": "MatchEvent({id:81274017})"
+          },
+          {
+            "href": "MatchEvent({id:81274074})"
+          },
+          {
+            "href": "MatchEvent({id:81274095})"
+          },
+          {
+            "href": "MatchEvent({id:81274094})"
+          },
+          {
+            "href": "MatchEvent({id:81274120})"
+          },
+          {
+            "href": "MatchEvent({id:81274119})"
+          },
+          {
+            "href": "MatchEvent({id:81274179})"
+          },
+          {
+            "href": "MatchEvent({id:81274208})"
+          },
+          {
+            "href": "MatchEvent({id:81274222})"
+          },
+          {
+            "href": "MatchEvent({id:81274217})"
+          },
+          {
+            "href": "MatchEvent({id:81274251})"
+          },
+          {
+            "href": "MatchEvent({id:81274280})"
+          },
+          {
+            "href": "MatchEvent({id:81274349})"
+          },
+          {
+            "href": "MatchEvent({id:81274348})"
+          },
+          {
+            "href": "MatchEvent({id:81274359})"
+          },
+          {
+            "href": "MatchEvent({id:81274407})"
+          },
+          {
+            "href": "MatchEvent({id:81274464})"
+          },
+          {
+            "href": "MatchEvent({id:81274497})"
+          },
+          {
+            "href": "MatchEvent({id:81274539})"
+          },
+          {
+            "href": "MatchEvent({id:81274574})"
+          },
+          {
+            "href": "MatchEvent({id:81274592})"
+          },
+          {
+            "href": "MatchEvent({id:81274762})"
+          },
+          {
+            "href": "MatchEvent({id:81274761})"
+          },
+          {
+            "href": "MatchEvent({id:81274900})"
+          },
+          {
+            "href": "MatchEvent({id:81275106})"
+          },
+          {
+            "href": "MatchEvent({id:81275108})"
+          },
+          {
+            "href": "MatchEvent({id:81275537})"
+          },
+          {
+            "href": "MatchEvent({id:81275535})"
+          },
+          {
+            "href": "MatchEvent({id:81275621})"
+          },
+          {
+            "href": "MatchEvent({id:81275653})"
+          },
+          {
+            "href": "MatchEvent({id:81275673})"
+          },
+          {
+            "href": "MatchEvent({id:81275777})"
+          },
+          {
+            "href": "MatchEvent({id:81275840})"
+          },
+          {
+            "href": "MatchEvent({id:81275849})"
+          },
+          {
+            "href": "MatchEvent({id:81275901})"
+          },
+          {
+            "href": "MatchEvent({id:81275946})"
+          },
+          {
+            "href": "MatchEvent({id:81275966})"
+          },
+          {
+            "href": "MatchEvent({id:81275986})"
+          },
+          {
+            "href": "MatchEvent({id:81276006})"
+          },
+          {
+            "href": "MatchEvent({id:81276030})"
+          },
+          {
+            "href": "MatchEvent({id:81276029})"
+          },
+          {
+            "href": "MatchEvent({id:81276193})"
+          },
+          {
+            "href": "MatchEvent({id:81276220})"
+          },
+          {
+            "href": "MatchEvent({id:81276248})"
+          },
+          {
+            "href": "MatchEvent({id:81276268})"
+          },
+          {
+            "href": "MatchEvent({id:81276267})"
+          },
+          {
+            "href": "MatchEvent({id:81276283})"
+          },
+          {
+            "href": "MatchEvent({id:81276282})"
+          },
+          {
+            "href": "MatchEvent({id:81276324})"
+          },
+          {
+            "href": "MatchEvent({id:81276416})"
+          },
+          {
+            "href": "MatchEvent({id:81276418})"
+          },
+          {
+            "href": "MatchEvent({id:81276475})"
+          },
+          {
+            "href": "MatchEvent({id:81276474})"
+          },
+          {
+            "href": "MatchEvent({id:81276488})"
+          },
+          {
+            "href": "MatchEvent({id:81276487})"
+          },
+          {
+            "href": "MatchEvent({id:81276510})"
+          },
+          {
+            "href": "MatchEvent({id:81276526})"
+          },
+          {
+            "href": "MatchEvent({id:81276525})"
+          },
+          {
+            "href": "MatchEvent({id:81276566})"
+          },
+          {
+            "href": "MatchEvent({id:81276568})"
+          },
+          {
+            "href": "MatchEvent({id:81276595})"
+          },
+          {
+            "href": "MatchEvent({id:81276668})"
+          },
+          {
+            "href": "MatchEvent({id:81276692})"
+          },
+          {
+            "href": "MatchEvent({id:81276688})"
+          },
+          {
+            "href": "MatchEvent({id:81276870})"
+          },
+          {
+            "href": "MatchEvent({id:81276879})"
+          },
+          {
+            "href": "MatchEvent({id:81277094})"
+          },
+          {
+            "href": "MatchEvent({id:81277091})"
+          },
+          {
+            "href": "MatchEvent({id:81277109})"
+          },
+          {
+            "href": "MatchEvent({id:81277170})"
+          },
+          {
+            "href": "MatchEvent({id:81277169})"
+          },
+          {
+            "href": "MatchEvent({id:81277235})"
+          },
+          {
+            "href": "MatchEvent({id:81277271})"
+          },
+          {
+            "href": "MatchEvent({id:81277301})"
+          },
+          {
+            "href": "MatchEvent({id:81277335})"
+          },
+          {
+            "href": "MatchEvent({id:81277379})"
+          },
+          {
+            "href": "MatchEvent({id:81277403})"
+          },
+          {
+            "href": "MatchEvent({id:81277401})"
+          },
+          {
+            "href": "MatchEvent({id:81277438})"
+          },
+          {
+            "href": "MatchEvent({id:81277437})"
+          },
+          {
+            "href": "MatchEvent({id:81277511})"
+          },
+          {
+            "href": "MatchEvent({id:81277634})"
+          },
+          {
+            "href": "MatchEvent({id:81277694})"
+          },
+          {
+            "href": "MatchEvent({id:81277763})"
+          },
+          {
+            "href": "MatchEvent({id:81277796})"
+          },
+          {
+            "href": "MatchEvent({id:81277868})"
+          },
+          {
+            "href": "MatchEvent({id:81277867})"
+          },
+          {
+            "href": "MatchEvent({id:81277909})"
+          },
+          {
+            "href": "MatchEvent({id:81277921})"
+          },
+          {
+            "href": "MatchEvent({id:81278107})"
+          },
+          {
+            "href": "MatchEvent({id:81278118})"
+          },
+          {
+            "href": "MatchEvent({id:81278188})"
+          },
+          {
+            "href": "MatchEvent({id:81278209})"
+          },
+          {
+            "href": "MatchEvent({id:81278255})"
+          },
+          {
+            "href": "MatchEvent({id:81278254})"
+          },
+          {
+            "href": "MatchEvent({id:81278286})"
+          },
+          {
+            "href": "MatchEvent({id:81278319})"
+          },
+          {
+            "href": "MatchEvent({id:81278457})"
+          },
+          {
+            "href": "MatchEvent({id:81278486})"
+          },
+          {
+            "href": "MatchEvent({id:81278583})"
+          },
+          {
+            "href": "MatchEvent({id:81278604})"
+          },
+          {
+            "href": "MatchEvent({id:81278618})"
+          },
+          {
+            "href": "MatchEvent({id:81278639})"
+          },
+          {
+            "href": "MatchEvent({id:81278638})"
+          },
+          {
+            "href": "MatchEvent({id:81278791})"
+          },
+          {
+            "href": "MatchEvent({id:81278790})"
+          },
+          {
+            "href": "MatchEvent({id:81278854})"
+          },
+          {
+            "href": "MatchEvent({id:81278927})"
+          },
+          {
+            "href": "MatchEvent({id:81278976})"
+          },
+          {
+            "href": "MatchEvent({id:81279012})"
+          },
+          {
+            "href": "MatchEvent({id:81279011})"
+          },
+          {
+            "href": "MatchEvent({id:81279020})"
+          },
+          {
+            "href": "MatchEvent({id:81279430})"
+          }
+        ]
+      },
+      "auditResolveTimeMs": 0.0074
+    },
+    "EditionDay({id:74092520})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "EditionDay",
+        "topScorers": {
+          "href": "EditionDay({id:74092520})$topScorers"
+        },
+        "summary": {
+          "href": "EditionDay({id:74092520})$summary"
+        },
+        "finals": {
+          "href": "EditionDay({id:74092520})$finals"
+        },
+        "schedulePublished": true,
+        "playDay": true,
+        "categoriesPlaying": {
+          "href": "EditionDay({id:74092520})$categoriesPlaying"
+        },
+        "interestingNationVsNation": {
+          "href": "EditionDay({id:74092520})$interestingNationVsNation"
+        },
+        "interestingHighScoring": {
+          "href": "EditionDay({id:74092520})$interestingHighScoring"
+        },
+        "interestingGroupFinals": {
+          "href": "EditionDay({id:74092520})$interestingGroupFinals"
+        },
+        "refereeSchedulePublished": false,
+        "todaysWinners": {
+          "href": "EditionDay({id:74092520})$todaysWinners"
+        },
+        "finishedState": {
+          "href": "EditionDay({id:74092520})$finishedState"
+        },
+        "interestingFinals": {
+          "href": "EditionDay({id:74092520})$interestingFinals"
+        },
+        "index": 3,
+        "matches": {
+          "href": "EditionDay({id:74092520})$matches"
+        },
+        "id": 74092520,
+        "date": 1780178400000
+      },
+      "auditResolveTimeMs": 0.005821
+    },
+    "Referee({id:79949218})": {
+      "cachetags": [
+        {
+          "taint": [
+            "referee",
+            "referee_refereeId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79949218
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Referee",
+        "timeline": {
+          "href": "Referee({id:79949218})$timeline"
+        },
+        "name": "Basma AL-Ameri",
+        "matches": {
+          "href": "Referee({id:79949218})$matches"
+        },
+        "id": 79949218,
+        "isPublic": true,
+        "me": {
+          "href": "MeReferee({id:79949218})"
+        },
+        "number": "35",
+        "days": {
+          "href": "Referee({id:79949218})$days"
+        }
+      },
+      "auditResolveTimeMs": 0.006992
+    },
+    "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$name": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": "Finals",
+      "auditResolveTimeMs": 3.29E-4
+    },
+    "MatchEvent({id:81277271})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277271
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 2419820,
+        "absoluteTime": 1780219749061,
+        "likedBy": [],
+        "id": 81277271,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.62E-4
+    },
+    "MatchEvent({id:81274359})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274359
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 96,
+        "side": "home",
+        "playerName": "Nicolai Pedersen",
+        "relativeTime": 574097,
+        "absoluteTime": 1780217947361,
+        "likedBy": [],
+        "id": 81274359,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.83E-4
+    },
+    "MatchEvent({id:81277109})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277109
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 35,
+        "awayScore": 46,
+        "value": 2,
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 2298067,
+        "absoluteTime": 1780219627308,
+        "likedBy": [
+          "Ivana Savic"
+        ],
+        "id": 81277109,
+        "period": 2
+      },
+      "auditResolveTimeMs": 5.67E-4
+    },
+    "MatchEvent({id:81279020})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81279020
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "relativeTime": 2907860,
+        "absoluteTime": 1780221096121,
+        "likedBy": [],
+        "id": 81279020,
+        "period": 3
+      },
+      "auditResolveTimeMs": 2.92E-4
+    },
+    "MatchEvent({id:81275946})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275946
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal",
+          "personal"
+        ],
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 2494373,
+        "absoluteTime": 1780218744464,
+        "likedBy": [],
+        "id": 81275946,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.76E-4
+    },
+    "Match({id:79999638})$nextMatchLoser": {
+      "cachetags": [
+        {
+          "taint": [
+            "match",
+            "match_plan"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "auditResolveTimeMs": 3.006319
+    },
+    "MatchEvent({id:81277438})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277438
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💫 Kvarnby Basket! 🎉\nMål efter mål för Kvarnby Basket. Nu bara rasar målen in.",
+          "en": "3 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2575670,
+        "absoluteTime": 1780219904911,
+        "likedBy": [],
+        "id": 81277438,
+        "period": 2
+      },
+      "auditResolveTimeMs": 3.42E-4
+    },
+    "MatchEvent({id:81274018})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274018
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎊🎈🏆 Bollen smög över mållinjen 🏆\nJag noterar 2 mål efter varandra för Kvarnby Basket. Gör de nästa mål också? En kvittering är bara ett mål bort för Gimle 😛",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 267492,
+        "absoluteTime": 1780217640756,
+        "likedBy": [],
+        "id": 81274018,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.54E-4
+    },
+    "MatchEvent({id:81274094})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274094
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 2,
+        "awayScore": 4,
+        "value": 1,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 340641,
+        "absoluteTime": 1780217713905,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81274094,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.77E-4
+    },
+    "MatchEvent({id:81274574})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274574
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 12,
+        "awayScore": 14,
+        "value": 2,
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 735256,
+        "absoluteTime": 1780218108520,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81274574,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.69E-4
+    },
+    "MatchEvent({id:81277301})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277301
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 36,
+        "awayScore": 49,
+        "value": 1,
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 2445592,
+        "absoluteTime": 1780219774833,
+        "likedBy": [],
+        "id": 81277301,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.24E-4
+    },
+    "MatchEvent({id:81275106})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275106
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "relativeTime": 974805,
+        "absoluteTime": 1780218348069,
+        "likedBy": [],
+        "id": 81275106,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.88E-4
+    },
+    "MatchEvent({id:81277763})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277763
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 41,
+        "awayScore": 58,
+        "value": 3,
+        "playerNr": 2,
+        "side": "home",
+        "playerName": "Christian Bakke de Mello",
+        "relativeTime": 2853089,
+        "absoluteTime": 1780220182330,
+        "likedBy": [],
+        "id": 81277763,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.3E-4
+    },
+    "MatchEvent({id:81273737})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81273737
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "homeScore": 0,
+        "awayScore": 0,
+        "winByPeriods": false,
+        "pointsPerPeriod": false,
+        "isPeriodStart": true,
+        "relativeTime": 0,
+        "absoluteTime": 1780217373264,
+        "likedBy": [],
+        "id": 81273737,
+        "period": 0
+      },
+      "auditResolveTimeMs": 0.004542
+    },
+    "Match({id:79999638})$nextMatchWinner": {
+      "cachetags": [
+        {
+          "taint": [
+            "match",
+            "match_plan"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "auditResolveTimeMs": 0.010873
+    },
+    "MatchEvent({id:81274074})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274074
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 11,
+        "side": "home",
+        "playerName": "Simen Bringsvor Nilsen",
+        "relativeTime": 323832,
+        "absoluteTime": 1780217697096,
+        "likedBy": [],
+        "id": 81274074,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.61E-4
+    },
+    "Match({id:79999638})$protests": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "protest"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": [],
+      "auditResolveTimeMs": 0.008365
+    },
+    "MatchEvent({id:81277868})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277868
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎈💫🏆 Mål i Gubbängshallen! 💥💥\nMål efter mål för Kvarnby Basket. Nu bara rasar målen in. Nu tycker jag det är dags för Gimle att reducera!",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2926589,
+        "absoluteTime": 1780220255830,
+        "likedBy": [],
+        "id": 81277868,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.53E-4
+    },
+    "MatchEvent({id:81273906})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81273906
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "Ska det bli revansch för Gimle i Gubbängshallen? De förlorade sin förra match i turneringen. Kom igen Kvarnby Basket! Det är lång ifrån omöjligt att hämta hem 2 mål. 😀",
+          "en": "Gimle is in the lead despite the fact that they lost their previous match."
+        },
+        "relativeTime": 172592,
+        "absoluteTime": 1780217545856,
+        "likedBy": [],
+        "id": 81273906,
+        "period": 0
+      },
+      "auditResolveTimeMs": 0.001369
+    },
+    "MatchEvent({id:81274119})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274119
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 2,
+        "awayScore": 5,
+        "value": 1,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 354097,
+        "absoluteTime": 1780217727361,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81274119,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.42E-4
+    },
+    "MatchEvent({id:81274349})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274349
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "2 mål efter varandra för Gimle! Nu verkar det som om de sätter fart.",
+          "en": "2 goals in a row for Gimle."
+        },
+        "relativeTime": 561575,
+        "absoluteTime": 1780217934839,
+        "likedBy": [],
+        "id": 81274349,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.21E-4
+    },
+    "MatchEvent({id:81276525})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276525
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 25,
+        "awayScore": 42,
+        "value": 3,
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 2936955,
+        "absoluteTime": 1780219187046,
+        "likedBy": [],
+        "id": 81276525,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.08E-4
+    },
+    "MatchEvent({id:81273986})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81273986
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 2,
+        "awayScore": 1,
+        "value": 1,
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 241970,
+        "absoluteTime": 1780217615234,
+        "likedBy": [],
+        "id": 81273986,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.26E-4
+    },
+    "MatchEvent({id:81277634})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277634
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 38,
+        "awayScore": 56,
+        "value": 2,
+        "playerNr": 36,
+        "side": "home",
+        "playerName": "Marius Sommersten-Storetvedt",
+        "relativeTime": 2744501,
+        "absoluteTime": 1780220073742,
+        "likedBy": [],
+        "id": 81277634,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.42E-4
+    },
+    "Location({id:1298615,tid:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "location"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Location",
+        "lodging": false,
+        "arena": true,
+        "arenas": {
+          "href": "Location({id:1298615,tid:69211459})$arenas"
+        },
+        "restaurant": false,
+        "persons": {
+          "href": "Location({id:1298615,tid:69211459})$persons"
+        },
+        "areaMaps": {
+          "href": "Location({id:1298615,tid:69211459})$areaMaps"
+        },
+        "pointsOfInterest": {
+          "href": "Location({id:1298615,tid:69211459})$pointsOfInterest"
+        },
+        "name": "Gubbängshallen",
+        "id": 1298615,
+        "location": {
+          "href": "Location({id:1298615,tid:69211459})$location"
+        },
+        "address": {
+          "href": "Address({eid:1298615,tid:69211459})"
+        }
+      },
+      "auditResolveTimeMs": 0.006491
+    },
+    "MatchEvent({id:81277909})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277909
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStop",
+        "relativeTime": 2950120,
+        "absoluteTime": 1780220279361,
+        "likedBy": [],
+        "id": 81277909,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.71E-4
+    },
+    "MatchEvent({id:81276416})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276416
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 2849533,
+        "absoluteTime": 1780219099624,
+        "likedBy": [],
+        "id": 81276416,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.49E-4
+    },
+    "MatchEvent({id:81274217})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274217
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 4,
+        "awayScore": 9,
+        "value": 2,
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 444954,
+        "absoluteTime": 1780217818218,
+        "likedBy": [],
+        "id": 81274217,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.38E-4
+    },
+    "MatchEvent({id:81275537})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275537
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎈 Bollen smög över mållinjen 💫💥🎉\nMål efter mål för Kvarnby Basket. Nu bara rasar målen in.",
+          "en": "3 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2249364,
+        "absoluteTime": 1780218499455,
+        "likedBy": [],
+        "id": 81275537,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.79E-4
+    },
+    "MatchEvent({id:81279011})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81279011
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 53,
+        "awayScore": 75,
+        "value": 2,
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 2896616,
+        "absoluteTime": 1780221084877,
+        "likedBy": [],
+        "id": 81279011,
+        "period": 3
+      },
+      "auditResolveTimeMs": 5.69E-4
+    },
+    "MatchEvent({id:81276688})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276688
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 33,
+        "awayScore": 44,
+        "value": 2,
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 3058471,
+        "absoluteTime": 1780219308562,
+        "likedBy": [],
+        "id": 81276688,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.8E-4
+    },
+    "MatchEvent({id:81277796})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277796
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 41,
+        "awayScore": 60,
+        "value": 2,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 2874151,
+        "absoluteTime": 1780220203392,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81277796,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.42E-4
+    },
+    "MatchEvent({id:81278118})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278118
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 43,
+        "awayScore": 64,
+        "value": 2,
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 2275893,
+        "absoluteTime": 1780220464154,
+        "likedBy": [],
+        "id": 81278118,
+        "period": 3
+      },
+      "auditResolveTimeMs": 3.09E-4
+    },
+    "MatchEvent({id:81274251})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274251
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 466072,
+        "absoluteTime": 1780217839336,
+        "likedBy": [],
+        "id": 81274251,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.41E-4
+    },
+    "MatchEvent({id:81278618})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278618
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 49,
+        "awayScore": 72,
+        "value": 1,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 2661349,
+        "absoluteTime": 1780220849610,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81278618,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.56E-4
+    },
+    "MatchActor({actor:\"away\",id:79999638})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor",
+        "team": {
+          "href": "Team({id:75495740})"
+        },
+        "originalName": {
+          "href": "MatchActor({actor:\"away\",id:79999638})$originalName"
+        },
+        "name": {
+          "en": "Kvarnby Basket Green"
+        },
+        "id": 75495740,
+        "match": {
+          "href": "Match({id:79999638})"
+        },
+        "shortName": {
+          "href": "MatchActor({actor:\"away\",id:79999638})$shortName"
+        }
+      },
+      "auditResolveTimeMs": 0.005398
+    },
+    "MatchEvent({id:81277694})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277694
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 38,
+        "awayScore": 58,
+        "value": 2,
+        "playerNr": 70,
+        "side": "away",
+        "playerName": "Sebastian Nilsson",
+        "relativeTime": 2790656,
+        "absoluteTime": 1780220119897,
+        "likedBy": [],
+        "id": 81277694,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.35E-4
+    },
+    "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Stage",
+        "teams": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$teams"
+        },
+        "rankings": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$rankings"
+        },
+        "categoryId": 69211497,
+        "pseudoStageTeams": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$pseudoStageTeams"
+        },
+        "divisions": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$divisions"
+        },
+        "schedulePublished": true,
+        "lotPublished": true,
+        "statistics": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$statistics"
+        },
+        "periodLengths": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "previousStages": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$previousStages"
+        },
+        "nextStages": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$nextStages"
+        },
+        "isSingleConference": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$isSingleConference"
+        },
+        "stageTeamConferences": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$stageTeamConferences"
+        },
+        "realTeams": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$realTeams"
+        },
+        "name": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$name"
+        },
+        "type": "playoff",
+        "matches": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})$matches"
+        },
+        "id": 69211457,
+        "category": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})"
+        },
+        "rank": 2
+      },
+      "auditResolveTimeMs": 0.0201
+    },
+    "Video({id:80654552})": {
+      "cachetags": [
+        {
+          "taint": [
+            "web",
+            "video"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Video",
+        "thumbnail": "https://edg04-prd-de-ixn.solidtango.com/cache/media_file/crop640x360/40c09301-190d-4764-95cf-cc319835f0ac.png?cb=2e3420831afdea5fbbce3291282219e8",
+        "externalLink": "https://solidsport.com/lampechallenge/watch/4-an-i-grupp-a-4-an-i-grupp-b-c79a5578-e18c-4f7a-876b-74813e7ac47d",
+        "id": 80654552,
+        "match": {
+          "href": "Match({id:79999638})"
+        },
+        "provider": "solidsport"
+      },
+      "auditResolveTimeMs": 0.007176
+    },
+    "MatchEvent({id:81275849})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275849
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 15,
+        "awayScore": 23,
+        "value": 2,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 2435063,
+        "absoluteTime": 1780218685154,
+        "likedBy": [],
+        "id": 81275849,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.82E-4
+    },
+    "Match({id:79999638})$referees": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_referee_id"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": [
+        {
+          "__typename": "Match$MatchReferee",
+          "position": "MainJudge",
+          "positionName": {
+            "nb": "Hoveddommer",
+            "de": "Hauptschiedsrichter",
+            "sv": "Huvuddomare",
+            "en": "Main referee"
+          },
+          "referee": {
+            "href": "Referee({id:79949269})"
+          }
+        },
+        {
+          "__typename": "Match$MatchReferee",
+          "position": "None",
+          "positionName": {
+            "de": "Schiedsrichter (andere)",
+            "sv": "Domare (Övrig)",
+            "en": "Referee (Other)"
+          },
+          "referee": {
+            "href": "Referee({id:79949218})"
+          }
+        }
+      ],
+      "auditResolveTimeMs": 6.492855
+    },
+    "Arena({id:1298616,tid:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "location"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Arena",
+        "areaMaps": {
+          "href": "Arena({id:1298616,tid:69211459})$areaMaps"
+        },
+        "liveMatch": {
+          "href": "Arena({id:1298616,tid:69211459})$liveMatch"
+        },
+        "liveScreenUrl": "https://lampechallenge.cupmanager.net/69211442,wrap=clean/result/matchWidget/1298616",
+        "completeName": "Gubbängshallen",
+        "id": 1298616,
+        "location": {
+          "href": "Location({id:1298615,tid:69211459})"
+        },
+        "fieldName": "",
+        "days": {
+          "href": "Arena({id:1298616,tid:69211459})$days"
+        }
+      },
+      "auditResolveTimeMs": 0.004895
+    },
+    "MatchEvent({id:81278457})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278457
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 48,
+        "awayScore": 71,
+        "value": 2,
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 2559434,
+        "absoluteTime": 1780220747695,
+        "likedBy": [],
+        "id": 81278457,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.4E-4
+    },
+    "MatchEvent({id:81275901})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275901
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 17,
+        "awayScore": 23,
+        "value": 2,
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 2466528,
+        "absoluteTime": 1780218716619,
+        "likedBy": [],
+        "id": 81275901,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.31E-4
+    },
+    "MatchEvent({id:81275966})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275966
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 17,
+        "awayScore": 25,
+        "value": 2,
+        "playerNr": 31,
+        "side": "away",
+        "playerName": "Aravind Sreenivas",
+        "relativeTime": 2520805,
+        "absoluteTime": 1780218770896,
+        "likedBy": [],
+        "id": 81275966,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.55E-4
+    },
+    "MatchEvent({id:81277170})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277170
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💥 Heja Kvarnby Basket! 🎈\nMål efter mål för Kvarnby Basket. Nu bara rasar målen in. Ge inte upp Gimle, ni sätter nästa istället! 😃",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2333650,
+        "absoluteTime": 1780219662891,
+        "likedBy": [],
+        "id": 81277170,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.58E-4
+    },
+    "MatchActor({actor:\"away\",id:79999638})$shortName": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor$ShortName",
+        "name": {
+          "en": "KVARN"
+        }
+      },
+      "auditResolveTimeMs": 2.485865
+    },
+    "MatchEvent({id:81276487})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276487
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 23,
+        "awayScore": 39,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2903710,
+        "absoluteTime": 1780219153801,
+        "likedBy": [],
+        "id": 81276487,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.01E-4
+    },
+    "MatchEvent({id:81278107})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278107
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 43,
+        "awayScore": 62,
+        "value": 2,
+        "playerNr": 35,
+        "side": "home",
+        "playerName": "Lauritz Giusti",
+        "relativeTime": 2269222,
+        "absoluteTime": 1780220457483,
+        "likedBy": [],
+        "id": 81278107,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.4E-4
+    },
+    "MatchEvent({id:81274017})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274017
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 2,
+        "awayScore": 3,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 267872,
+        "absoluteTime": 1780217641136,
+        "likedBy": [],
+        "id": 81274017,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.76E-4
+    },
+    "MatchEvent({id:81274762})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274762
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🏆🎉 Där satt den! 🎊\nJag noterar 2 mål efter varandra för Kvarnby Basket. Gör de nästa mål också? Nu tycker jag det är dags för Gimle att reducera!",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 869990,
+        "absoluteTime": 1780218243254,
+        "likedBy": [],
+        "id": 81274762,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.43E-4
+    },
+    "Match({id:79999638})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_state_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        },
+        {
+          "taint": [
+            "match",
+            "match_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Match",
+        "division": {
+          "href": "Division({id:79999636})"
+        },
+        "protests": {
+          "href": "Match({id:79999638})$protests"
+        },
+        "roundName": {
+          "href": "Match({id:79999638})$roundName"
+        },
+        "matchNr": "31050102",
+        "matchStats": {
+          "href": "Match({id:79999638})$matchStats"
+        },
+        "live": true,
+        "video": {
+          "href": "Match({id:79999638})$video"
+        },
+        "arena": {
+          "href": "Arena({id:1298616,tid:69211459})"
+        },
+        "extraMatches": {
+          "href": "Match({id:79999638})$extraMatches"
+        },
+        "away": {
+          "href": "MatchActor({actor:\"away\",id:79999638})"
+        },
+        "feed": {
+          "href": "MatchFeed({id:79999638})"
+        },
+        "isScheduled": true,
+        "roundRank": {
+          "href": "Match({id:79999638})$roundRank"
+        },
+        "winner": {
+          "href": "Match({id:79999638})$winner"
+        },
+        "referees": {
+          "href": "Match({id:79999638})$referees"
+        },
+        "editionRanking": {
+          "href": "Match({id:79999638})$editionRanking"
+        },
+        "liveStart": {
+          "href": "Match({id:79999638})$liveStart"
+        },
+        "nextMatchWinner": {
+          "href": "Match({id:79999638})$nextMatchWinner"
+        },
+        "previousMeetings": {
+          "href": "Match({id:79999638})$previousMeetings"
+        },
+        "loser": {
+          "href": "Match({id:79999638})$loser"
+        },
+        "nextMatchLoser": {
+          "href": "Match({id:79999638})$nextMatchLoser"
+        },
+        "start": 1780217400000,
+        "end": 1780221600000,
+        "result": {
+          "href": "MatchResult({id:79999638})"
+        },
+        "id": 79999638,
+        "round": {
+          "href": "Round({id:79999637})"
+        },
+        "home": {
+          "href": "MatchActor({actor:\"home\",id:79999638})"
+        },
+        "duration": 4200000,
+        "day": {
+          "href": "EditionDay({id:74092520})"
+        },
+        "stage": {
+          "href": "Stage({categoryId:69211497,stageId:69211457,tournamentId:69211459})"
+        },
+        "finished": true
+      },
+      "auditResolveTimeMs": 0.00246
+    },
+    "MatchEvent({id:81276692})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276692
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💫 Jubel i Gubbängshallen! 🎉\nMål efter mål för Gimle. Nu bara rasar målen in. De håller sig i alla fall kvar i matchen, 11 mål till så är det kvitterat",
+          "en": "2 goals in a row for Gimle😀"
+        },
+        "relativeTime": 3058261,
+        "absoluteTime": 1780219308352,
+        "likedBy": [],
+        "id": 81276692,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.74E-4
+    },
+    "NameClub({id:75640147})": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub",
+        "nation": {
+          "href": "Nation({id:171,tid:69211459})"
+        },
+        "registeredTeams": {
+          "href": "NameClub({id:75640147})$registeredTeams"
+        },
+        "shirt": {
+          "href": "NameClub({id:75640147})$shirt"
+        },
+        "interestingFacts": {
+          "href": "NameClub({id:75640147})$interestingFacts"
+        },
+        "sportsRegion": {
+          "href": "NameClub({id:75640147})$sportsRegion"
+        },
+        "matchesCalendarUrl": {
+          "href": "NameClub({id:75640147})$matchesCalendarUrl"
+        },
+        "matchesExcelUrl": {
+          "href": "NameClub({id:75640147})$matchesExcelUrl"
+        },
+        "medalHistory": {
+          "href": "NameClub({id:75640147})$medalHistory"
+        },
+        "name": "Gimle",
+        "id": 75640147,
+        "address": {
+          "href": "NameClub({id:75640147})$address"
+        },
+        "description": {
+          "href": "NameClub({id:75640147})$description"
+        }
+      },
+      "auditResolveTimeMs": 0.005448
+    },
+    "MatchEvent({id:81274497})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274497
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 9,
+        "awayScore": 12,
+        "value": 2,
+        "playerNr": 31,
+        "side": "away",
+        "playerName": "Aravind Sreenivas",
+        "relativeTime": 688496,
+        "absoluteTime": 1780218061760,
+        "likedBy": [],
+        "id": 81274497,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.05E-4
+    },
+    "MatchEvent({id:81278604})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278604
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 2648116,
+        "absoluteTime": 1780220836377,
+        "likedBy": [],
+        "id": 81278604,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.57E-4
+    },
+    "MatchResult({id:79999638})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_result_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchResult",
+        "winByPeriods": false,
+        "homePoints": 0,
+        "awayPoints": 2,
+        "ordinaryPeriodCount": 4,
+        "live": true,
+        "pointsPerPeriod": false,
+        "walkover": false,
+        "penalties": false,
+        "periodTypes": [
+          "period",
+          "period",
+          "period",
+          "period"
+        ],
+        "winner": "away",
+        "hideGoalResults": false,
+        "homeGoals": 53,
+        "awayGoals": 75,
+        "homeState": "loss",
+        "awayState": "win",
+        "periodScores": [
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 12,
+            "awayGoals": 16
+          },
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 21,
+            "awayGoals": 28
+          },
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 8,
+            "awayGoals": 18
+          },
+          {
+            "__typename": "MatchResult$PeriodScore",
+            "homeGoals": 12,
+            "awayGoals": 13
+          }
+        ],
+        "presentation": "Result",
+        "id": 79999638,
+        "match": {
+          "href": "Match({id:79999638})"
+        },
+        "finished": true
+      },
+      "auditResolveTimeMs": 0.004601
+    },
+    "MatchEvent({id:81276526})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276526
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💥🎈💫 Härlig fart i Gubbängshallen! 🎊🏆\nNär jag räknar på det ser jag att det just nu är Kvarnby Basket som gjort 5e flest mål per match av alla lag i Boys 2011 Elite  (57 st) . Kämpa på Gimle, ni sätter nästa!"
+        },
+        "relativeTime": 2936085,
+        "absoluteTime": 1780219186176,
+        "likedBy": [],
+        "id": 81276526,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.6E-4
+    },
+    "MatchEvent({id:81274280})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274280
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 5,
+        "awayScore": 9,
+        "value": 1,
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 489321,
+        "absoluteTime": 1780217862585,
+        "likedBy": [],
+        "id": 81274280,
+        "period": 0
+      },
+      "auditResolveTimeMs": 2.09E-4
+    },
+    "MatchEvent({id:81277091})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277091
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 35,
+        "awayScore": 44,
+        "value": 2,
+        "playerNr": 96,
+        "side": "home",
+        "playerName": "Nicolai Pedersen",
+        "relativeTime": 2282166,
+        "absoluteTime": 1780219611407,
+        "likedBy": [],
+        "id": 81277091,
+        "period": 2
+      },
+      "auditResolveTimeMs": 2.45E-4
+    },
+    "MatchEvent({id:81274179})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274179
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 4,
+        "awayScore": 5,
+        "value": 2,
+        "playerNr": 2,
+        "side": "home",
+        "playerName": "Christian Bakke de Mello",
+        "relativeTime": 421101,
+        "absoluteTime": 1780217794365,
+        "likedBy": [],
+        "id": 81274179,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.54E-4
+    },
+    "MatchEvent({id:81276568})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276568
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 28,
+        "awayScore": 44,
+        "value": 2,
+        "playerNr": 11,
+        "side": "away",
+        "playerName": "Yeming Mei",
+        "relativeTime": 2964454,
+        "absoluteTime": 1780219214545,
+        "likedBy": [],
+        "id": 81276568,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.58E-4
+    },
+    "MatchEvent({id:81277867})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277867
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 41,
+        "awayScore": 62,
+        "value": 2,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 2927178,
+        "absoluteTime": 1780220256419,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81277867,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.6E-4
+    },
+    "MatchEvent({id:81276193})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276193
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 21,
+        "awayScore": 29,
+        "value": 2,
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 2701600,
+        "absoluteTime": 1780218951691,
+        "likedBy": [],
+        "id": 81276193,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.27E-4
+    },
+    "Referee({id:79949269})": {
+      "cachetags": [
+        {
+          "taint": [
+            "referee",
+            "referee_refereeId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79949269
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Referee",
+        "timeline": {
+          "href": "Referee({id:79949269})$timeline"
+        },
+        "name": "Maryam alameri",
+        "matches": {
+          "href": "Referee({id:79949269})$matches"
+        },
+        "id": 79949269,
+        "isPublic": true,
+        "me": {
+          "href": "MeReferee({id:79949269})"
+        },
+        "number": "39",
+        "days": {
+          "href": "Referee({id:79949269})$days"
+        }
+      },
+      "auditResolveTimeMs": 0.009736
+    },
+    "MatchEvent({id:81278486})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278486
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal",
+          "personal",
+          "personal"
+        ],
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 2594875,
+        "absoluteTime": 1780220783136,
+        "likedBy": [],
+        "id": 81278486,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.54E-4
+    },
+    "MatchEvent({id:81276510})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276510
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 25,
+        "awayScore": 39,
+        "value": 2,
+        "playerNr": 0,
+        "side": "home",
+        "playerName": "Jakob Melve",
+        "relativeTime": 2922592,
+        "absoluteTime": 1780219172683,
+        "likedBy": [],
+        "id": 81276510,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.44E-4
+    },
+    "Nation({id:213,tid:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "constant"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Nation",
+        "stats": {
+          "href": "Nation({id:213,tid:69211459})$stats"
+        },
+        "clubs": {
+          "href": "Nation({id:213,tid:69211459})$clubs"
+        },
+        "name": {
+          "nb": "Sverige",
+          "de": "Schweden",
+          "da": "Sverige",
+          "zh": "瑞典",
+          "es": "Suecia",
+          "sv": "Sverige",
+          "en": "Sweden",
+          "fr": "Suède"
+        },
+        "code": "SE",
+        "id": 213
+      },
+      "auditResolveTimeMs": 0.006033
+    },
+    "MatchEvent({id:81277379})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277379
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 36,
+        "awayScore": 51,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2520484,
+        "absoluteTime": 1780219849725,
+        "likedBy": [],
+        "id": 81277379,
+        "period": 2
+      },
+      "auditResolveTimeMs": 8.86E-4
+    },
+    "MatchEvent({id:81276268})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276268
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💥 Heja Kvarnby Basket! 🎈\n2 mål efter varandra för Kvarnby Basket! Nu verkar det som om de sätter fart. Nu tycker jag det är dags för Gimle att reducera!",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2760431,
+        "absoluteTime": 1780219010522,
+        "likedBy": [],
+        "id": 81276268,
+        "period": 1
+      },
+      "auditResolveTimeMs": 5.31E-4
+    },
+    "MatchEvent({id:81276283})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276283
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "💥💫🎈 Där blev det mål! 🎊💫🎉\nMål efter mål för Kvarnby Basket. Nu bara rasar målen in. Kämpa på Gimle, ni sätter nästa!",
+          "en": "3 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2771862,
+        "absoluteTime": 1780219021953,
+        "likedBy": [],
+        "id": 81276283,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.47E-4
+    },
+    "MatchEvent({id:81276030})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276030
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "🎈💫 19 - 29! 🏆🎈\n2 mål efter varandra för Kvarnby Basket😀😀😄 Nu verkar det som om de sätter fart.",
+          "en": "2 goals in a row for Kvarnby Basket."
+        },
+        "relativeTime": 2568922,
+        "absoluteTime": 1780218819013,
+        "likedBy": [],
+        "id": 81276030,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.68E-4
+    },
+    "MatchEvent({id:81278638})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 49,
+        "awayScore": 73,
+        "value": 1,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 2674973,
+        "absoluteTime": 1780220863234,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81278638,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.56E-4
+    },
+    "Division({id:79999636})$table": {
+      "cachetags": [
+        {
+          "taint": [
+            "division",
+            "division_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999636
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Division$ConferenceTable",
+        "rows": [
+          {
+            "__typename": "Division$ConferenceTableRow",
+            "isIm": false,
+            "played": 1,
+            "won": 1,
+            "tied": 0,
+            "lost": 0,
+            "goalsWon": 75,
+            "goalsLost": -53,
+            "points": 2,
+            "periodsWon": 4,
+            "periodsLost": 0,
+            "greenCards": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "fairPlayPoints": 0,
+            "penaltyMinutes": 0,
+            "im_played": 0,
+            "im_won": 0,
+            "im_tied": 0,
+            "im_lost": 0,
+            "im_goalsWon": 0,
+            "im_goalsLost": 0,
+            "im_points": 0,
+            "im_periodsWon": 0,
+            "im_periodsLost": 0,
+            "im_greenCards": 0,
+            "im_yellowCards": 0,
+            "im_redCards": 0,
+            "im_fairPlayPoints": 0,
+            "im_penaltyMinutes": 0,
+            "name": {
+              "en": "Kvarnby Basket Green"
+            },
+            "team": {
+              "href": "Team({id:75495740})"
+            }
+          },
+          {
+            "__typename": "Division$ConferenceTableRow",
+            "isIm": false,
+            "played": 1,
+            "won": 0,
+            "tied": 0,
+            "lost": 1,
+            "goalsWon": 53,
+            "goalsLost": -75,
+            "points": 0,
+            "periodsWon": 0,
+            "periodsLost": -4,
+            "greenCards": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "fairPlayPoints": 0,
+            "penaltyMinutes": 0,
+            "im_played": 0,
+            "im_won": 0,
+            "im_tied": 0,
+            "im_lost": 0,
+            "im_goalsWon": 0,
+            "im_goalsLost": 0,
+            "im_points": 0,
+            "im_periodsWon": 0,
+            "im_periodsLost": 0,
+            "im_greenCards": 0,
+            "im_yellowCards": 0,
+            "im_redCards": 0,
+            "im_fairPlayPoints": 0,
+            "im_penaltyMinutes": 0,
+            "name": {
+              "en": "Gimle Rød"
+            },
+            "team": {
+              "href": "Team({id:75665333})"
+            }
+          }
+        ],
+        "inheritResults": false,
+        "inheritInternalResults": false,
+        "hasFixedRanks": false,
+        "hasTiedTeams": false,
+        "pointsWin": 2,
+        "pointsLoss": 0,
+        "pointsTie": 0
+      },
+      "auditResolveTimeMs": 23.990315
+    },
+    "MatchEvent({id:81277235})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277235
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [],
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 2385106,
+        "absoluteTime": 1780219714347,
+        "likedBy": [],
+        "id": 81277235,
+        "period": 2
+      },
+      "auditResolveTimeMs": 3.42E-4
+    },
+    "MatchEvent({id:81279430})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81279430
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchComment",
+        "profilePictureUrl": "https://ui-avatars.com/api/?name=IS",
+        "side": "away",
+        "author": "IS",
+        "comment": "NICE_GAME",
+        "relativeTime": 2907859,
+        "absoluteTime": 1780221513075,
+        "likedBy": [],
+        "id": 81279430,
+        "period": 3
+      },
+      "auditResolveTimeMs": 0.015081
+    },
+    "MatchEvent({id:81275653})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275653
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 14,
+        "awayScore": 21,
+        "value": 2,
+        "playerNr": 54,
+        "side": "away",
+        "playerName": "Gustav Setterberg",
+        "relativeTime": 2350528,
+        "absoluteTime": 1780218600619,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81275653,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.44E-4
+    },
+    "MatchActor({actor:\"home\",id:79999638})": {
+      "cachetags": [
+        {
+          "taint": [
+            "cachedmatch",
+            "cachedmatch_actor_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchActor",
+        "team": {
+          "href": "Team({id:75665333})"
+        },
+        "originalName": {
+          "href": "MatchActor({actor:\"home\",id:79999638})$originalName"
+        },
+        "name": {
+          "en": "Gimle Rød"
+        },
+        "id": 75665333,
+        "match": {
+          "href": "Match({id:79999638})"
+        },
+        "shortName": {
+          "href": "MatchActor({actor:\"home\",id:79999638})$shortName"
+        }
+      },
+      "auditResolveTimeMs": 0.00427
+    },
+    "Category({categoryId:69211497,tournamentId:69211459})": {
+      "cachetags": [
+        {
+          "taint": [
+            "general"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Category",
+        "stages": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})$stages"
+        },
+        "teams": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})$teams"
+        },
+        "gender": "men",
+        "showLivePauseLength": false,
+        "singleConference": false,
+        "schedulePublished": true,
+        "lotPublished": true,
+        "statistics": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})$statistics"
+        },
+        "registerAssists": false,
+        "registerShots": false,
+        "useClockInLiveReporting": false,
+        "registerGreenCards": false,
+        "hideMatchResults": false,
+        "resultOrder": [
+          {
+            "nb": "Poeng",
+            "de": "Punkte",
+            "zh": "积分",
+            "es": "Puntos",
+            "sv": "Poäng",
+            "en": "Points"
+          },
+          {
+            "nb": "Poeng (innbyrdes)",
+            "de": "Punkte (Direktvergleich)",
+            "da": "Points (indbyrdes møder)",
+            "zh": "相互比赛积分多者",
+            "es": "Puntos  (head-to-head)",
+            "sv": "Poäng (inbördes möten)",
+            "en": "Points (head-to-head)"
+          },
+          {
+            "nb": "Målforskjell (innbyrdes)",
+            "de": "Tordifferenz (Direktvergleich)",
+            "da": "Målforskel (indbyrdes møder)",
+            "zh": "相互比赛净胜球多者",
+            "es": "Diferencia de goles (head-to-head)",
+            "sv": "Målskillnad (inbördes möten)",
+            "en": "Goal difference (head-to-head)"
+          },
+          {
+            "nb": "Målforskjell",
+            "de": "Tordifferenz",
+            "da": "Målforskel",
+            "zh": "净胜球",
+            "es": "Diferencia de goles",
+            "sv": "Målskillnad",
+            "en": "Goal difference",
+            "fr": "Écarts total buts"
+          },
+          {
+            "nb": "Scorede mål",
+            "de": "Erzielte Tore",
+            "da": "Scorede mål",
+            "zh": "进球",
+            "es": "Goles anotados",
+            "sv": "Gjorda mål",
+            "en": "Scored goals"
+          },
+          {
+            "nb": "Loddtrekkning",
+            "de": "Ziehung der Lose",
+            "da": "Lotteri",
+            "zh": "抽签",
+            "es": "Por loteria",
+            "sv": "Lottning",
+            "en": "By lottery"
+          }
+        ],
+        "stageTeamStrategy": "scorePerMatch",
+        "matchesCanTie": false,
+        "registerRebounds": false,
+        "registerSteals": false,
+        "registerBlocks": false,
+        "hideGoalResults": false,
+        "countdownLiveClock": false,
+        "teamLimit": 8,
+        "teamHighscore": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})$teamHighscore"
+        },
+        "teamGreenCards": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})$teamGreenCards"
+        },
+        "stageResultOrder": [
+          {
+            "nb": "Poeng",
+            "de": "Punkte",
+            "zh": "积分",
+            "es": "Puntos",
+            "sv": "Poäng",
+            "en": "Points"
+          },
+          {
+            "nb": "Målforskjell",
+            "de": "Tordifferenz",
+            "da": "Målforskel",
+            "zh": "净胜球",
+            "es": "Diferencia de goles",
+            "sv": "Målskillnad",
+            "en": "Goal difference",
+            "fr": "Écarts total buts"
+          },
+          {
+            "nb": "Scorede mål",
+            "de": "Erzielte Tore",
+            "da": "Scorede mål",
+            "zh": "进球",
+            "es": "Goles anotados",
+            "sv": "Gjorda mål",
+            "en": "Scored goals"
+          },
+          {
+            "nb": "Loddtrekkning",
+            "de": "Ziehung der Lose",
+            "da": "Lotteri",
+            "zh": "抽签",
+            "es": "Por loteria",
+            "sv": "Lottning",
+            "en": "By lottery"
+          }
+        ],
+        "hidePlayers": false,
+        "registerYellowCards": false,
+        "useRefereeReports": false,
+        "registerRedCards": false,
+        "hideConferenceResults": false,
+        "onlyFirstStage": false,
+        "topPlayers": {
+          "href": "Category({categoryId:69211497,tournamentId:69211459})$topPlayers"
+        },
+        "name": "Boys 2011 Elite ",
+        "id": 69211497,
+        "shortName": "B2011E",
+        "age": 15
+      },
+      "auditResolveTimeMs": 0.03271
+    },
+    "MatchEvent({id:81277401})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277401
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 36,
+        "awayScore": 53,
+        "value": 2,
+        "playerNr": 93,
+        "side": "away",
+        "playerName": "Sam Limberg",
+        "relativeTime": 2547719,
+        "absoluteTime": 1780219876960,
+        "likedBy": [],
+        "id": 81277401,
+        "period": 2
+      },
+      "auditResolveTimeMs": 1.83E-4
+    },
+    "Team({id:75665333})$shirt": {
+      "cachetags": [
+        {
+          "taint": [
+            "nameClub",
+            "registrationClub"
+          ],
+          "cupId": 1040542,
+          "ids": [],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "NameClub$Shirt",
+        "type": "unknown",
+        "color1": "#f0070e",
+        "color2": "#ffffff",
+        "color3": "#ffffff",
+        "anti": "#ffffff"
+      },
+      "auditResolveTimeMs": 2.62E-4
+    },
+    "MatchEvent({id:81275986})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275986
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 19,
+        "awayScore": 25,
+        "value": 2,
+        "playerNr": 30,
+        "side": "home",
+        "playerName": "Marius Arnesen Nøkling",
+        "relativeTime": 2530331,
+        "absoluteTime": 1780218780422,
+        "likedBy": [],
+        "id": 81275986,
+        "period": 1
+      },
+      "auditResolveTimeMs": 1.31E-4
+    },
+    "Match({id:79999638})$roundName": {
+      "cachetags": [
+        {
+          "taint": [
+            "match",
+            "match_id"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            79999638
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "Match$RoundName",
+        "name": {
+          "en": "7th place"
+        }
+      },
+      "auditResolveTimeMs": 2.609584
+    },
+    "MatchEvent({id:81278286})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278286
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 48,
+        "awayScore": 69,
+        "value": 2,
+        "playerNr": 96,
+        "side": "home",
+        "playerName": "Nicolai Pedersen",
+        "relativeTime": 2457792,
+        "absoluteTime": 1780220646053,
+        "likedBy": [],
+        "id": 81278286,
+        "period": 3
+      },
+      "auditResolveTimeMs": 1.97E-4
+    },
+    "MatchEvent({id:81275108})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81275108
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchStart",
+        "homeScore": 12,
+        "awayScore": 16,
+        "winByPeriods": false,
+        "pointsPerPeriod": false,
+        "isPeriodStart": true,
+        "relativeTime": 2100000,
+        "absoluteTime": 1780218350091,
+        "likedBy": [],
+        "id": 81275108,
+        "period": 1
+      },
+      "auditResolveTimeMs": 8.8E-5
+    },
+    "MatchEvent({id:81278188})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81278188
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 46,
+        "awayScore": 64,
+        "value": 3,
+        "playerNr": 32,
+        "side": "home",
+        "playerName": "Jonas Risa",
+        "relativeTime": 2329075,
+        "absoluteTime": 1780220517336,
+        "likedBy": [],
+        "id": 81278188,
+        "period": 3
+      },
+      "auditResolveTimeMs": 3.06E-4
+    },
+    "MatchEvent({id:81276488})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81276488
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchBotComment",
+        "comment": {
+          "sv": "3 mål efter varandra för Kvarnby Basket! Nu verkar det som om de sätter fart.",
+          "en": "3 goals in a row for Kvarnby Basket😁"
+        },
+        "relativeTime": 2902735,
+        "absoluteTime": 1780219152826,
+        "likedBy": [],
+        "id": 81276488,
+        "period": 1
+      },
+      "auditResolveTimeMs": 2.74E-4
+    },
+    "MatchEvent({id:81274761})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81274761
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchGoal",
+        "homeScore": 12,
+        "awayScore": 16,
+        "value": 2,
+        "playerNr": 2,
+        "side": "away",
+        "playerName": "Theodor Nankler",
+        "relativeTime": 870910,
+        "absoluteTime": 1780218244174,
+        "likedBy": [
+          "Anna"
+        ],
+        "id": 81274761,
+        "period": 0
+      },
+      "auditResolveTimeMs": 1.81E-4
+    },
+    "MatchEvent({id:81277511})": {
+      "cachetags": [
+        {
+          "taint": [
+            "results",
+            "event",
+            "event_eventId"
+          ],
+          "cupId": 1040542,
+          "ids": [
+            81277511
+          ],
+          "queryId": 0
+        }
+      ],
+      "entity": {
+        "__typename": "MatchPlayerFoul",
+        "foulType": "personal",
+        "playerFouls": [
+          "personal"
+        ],
+        "playerNr": 13,
+        "side": "away",
+        "playerName": "Elvin Grimfeldt",
+        "relativeTime": 2631142,
+        "absoluteTime": 1780219960383,
+        "likedBy": [],
+        "id": 81277511,
+        "period": 2
+      },
+      "auditResolveTimeMs": 3.1E-4
+    }
+  },
+  "status": 200,
+  "totalTime": 153.741975
+}
